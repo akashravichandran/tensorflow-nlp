@@ -41,6 +41,8 @@
 			* [Generative Dialog（生成式对话）](https://github.com/zhedongzheng/finch#generative-dialog)
 
 				* RNN Seq2Seq + Attention
+				
+				* Transformer
 
 		* Multi-turn (多轮对话)
 		
@@ -382,6 +384,18 @@
 			* [\<Notebook> Export](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/free_chat/chinese_gaoq1/main/lstm_seq2seq_export.ipynb)
 			
 			* [\<Notebook> Inference](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/free_chat/chinese_gaoq1/main/lstm_seq2seq_predict.ipynb)
+			
+	* Model: [Transformer](https://arxiv.org/abs/1706.03762)
+
+		* TensorFlow 1
+			
+			* [\<Notebook> Training](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/free_chat/chinese_gaoq1/main/transformer_train.ipynb)
+			
+				Transformer (6 Layers, 8 Heads) -> 29.4 Perplexity & 12.1 BLEU-2
+			
+			* [\<Notebook> Export](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/free_chat/chinese_gaoq1/main/transformer_export.ipynb)
+			
+			* [\<Notebook> Inference](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/free_chat/chinese_gaoq1/main/transformer_predict.ipynb)
 			
 	* [\<Notebook> TF Serving Example](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/free_chat/chinese/main/gru_seq2seq_serving.ipynb)
 
