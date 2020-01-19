@@ -667,7 +667,7 @@
 		
 			* [\<Notebook> LSTM + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_train.ipynb)
 			
-			 	-> BLEU-1: 94.8, &nbsp; BLEU-2: 89.0, &nbsp; BELU-4: 78.3, &nbsp; EM: 57.5
+			 	-> BLEU-1: 94.8, &nbsp; BLEU-2: 89.3, &nbsp; BELU-4: 79.2, &nbsp; EM: 56.0
 
 			* [\<Notebook> Export](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_export.ipynb)
 			
