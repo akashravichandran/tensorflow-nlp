@@ -6,7 +6,7 @@
 
 	* [Text Classification（文本分类）](https://github.com/zhedongzheng/finch#text-classification)
 	
-		* IMDB
+		* IMDB（English）
 		
 			* TF-IDF + Logistic Regression
 
@@ -18,7 +18,7 @@
 
 	* [Text Matching（文本匹配）](https://github.com/zhedongzheng/finch#text-matching)
 	
-		* SNLI
+		* SNLI（English）
 	
 			* DAM
 		
@@ -36,9 +36,9 @@
 
 			* [Spoken Language Understanding（对话理解）](https://github.com/zhedongzheng/finch#spoken-language-understanding)
 
-				* ATIS
+				* ATIS（English）
 
-			* [Generative Dialog（生成式对话）](https://github.com/zhedongzheng/finch#generative-dialog)
+			* [Generative Dialog（生成式对话）](https://github.com/zhedongzheng/finch#generative-dialog)（Chinese）
 
 				* RNN Seq2Seq + Attention
 				
@@ -46,13 +46,13 @@
 
 		* Multi-turn (多轮对话)
 		
-			* [Multi-turn Dialogue Rewriting（多轮对话改写）](https://github.com/zhedongzheng/finch#multi-turn-dialogue-rewriting)
+			* [Multi-turn Dialogue Rewriting（多轮对话改写）](https://github.com/zhedongzheng/finch#multi-turn-dialogue-rewriting)（Chinese）
 
 				* RNN Seq2Seq + Attention + Dynamic Memory
 
 	* [Semantic Parsing（语义解析）](https://github.com/zhedongzheng/finch#semantic-parsing)
 	
-		* Semantic Parsing for Task Oriented Dialog
+		* Semantic Parsing for Task Oriented Dialog（English）
 	
 			* RNN Seq2Seq + Attention
 			
@@ -60,7 +60,7 @@
 
 	* [Question Answering（问题回答）](https://github.com/zhedongzheng/finch#question-answering)
 	
-		* bAbI
+		* bAbI（Engish）
 		
 			* Dynamic Memory Network
 		
@@ -88,7 +88,7 @@
 
 * [Recommender System（推荐系统）](https://github.com/zhedongzheng/finch#recommender-system)
 
-	* Movielens 1M
+	* Movielens 1M（English）
 
 		* Fusion
 		
