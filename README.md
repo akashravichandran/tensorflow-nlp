@@ -1,4 +1,4 @@
-* These scripts have been run on Google Colab which provides free GPU memory
+* Code has been run on Google Colab which provides free GPU memory
 
 #### Contents
 
@@ -7,26 +7,12 @@
 	* [Text Classification（文本分类）](https://github.com/zhedongzheng/finch#text-classification)
 	
 		* IMDB（English）
-		
-			* TF-IDF + Logistic Regression
-
-			* FastText
-
-			* Attention
-
-			* Sliced LSTM
 
 	* [Text Matching（文本匹配）](https://github.com/zhedongzheng/finch#text-matching)
 	
 		* SNLI（English）
 	
-			* DAM
-		
-			* MatchPyramid
-		
-			* ESIM
-		
-			* RE2
+		* 微粒贷 Data Collected from GitHub (Chinese)
 
 	* [Topic Modelling（主题模型）](https://github.com/zhedongzheng/finch#topic-modelling)
 
@@ -38,31 +24,23 @@
 
 				* ATIS（English）
 
-			* [Generative Dialog（生成式对话）](https://github.com/zhedongzheng/finch#generative-dialog)（Chinese）
+			* [Generative Dialog（生成式对话）](https://github.com/zhedongzheng/finch#generative-dialog)
 
-				* RNN Seq2Seq + Attention
-				
-				* Transformer
+				* Data Collected from Github (Chinese)
 
 		* Multi-turn (多轮对话)
 		
 			* [Multi-turn Dialogue Rewriting（多轮对话改写）](https://github.com/zhedongzheng/finch#multi-turn-dialogue-rewriting)（Chinese）
 
-				* RNN Seq2Seq + Attention + Dynamic Memory
+				* Data Collected from GitHub (Chinese)
 
 	* [Semantic Parsing（语义解析）](https://github.com/zhedongzheng/finch#semantic-parsing)
 	
 		* Semantic Parsing for Task Oriented Dialog（English）
 	
-			* RNN Seq2Seq + Attention
-			
-			* Transformer
-
 	* [Question Answering（问题回答）](https://github.com/zhedongzheng/finch#question-answering)
 	
 		* bAbI（Engish）
-		
-			* Dynamic Memory Network
 		
 	* [Text Transformation（文本变换）](https://github.com/zhedongzheng/finch#text-transformation)
 	
@@ -79,22 +57,10 @@
 	* [Knowledge Graph Inference（知识图谱推理）](https://github.com/zhedongzheng/finch#knowledge-graph-inference)
 	
 		* WN18
-	
-			* DistMult
-			
-			* TuckER
-		
-			* ComplEx
 
 * [Recommender System（推荐系统）](https://github.com/zhedongzheng/finch#recommender-system)
 
 	* Movielens 1M（English）
-
-		* Fusion
-		
-			* Classification
-			
-			* Regression
 
 ---
 
@@ -249,6 +215,18 @@
 			* [\<Notebook> 3-layer RE2 -> 88.0% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/main/re2_3_birnn.ipynb)
 
 			* [\<Notebook> 3-layer RE2 + Label Smoothing -> 88.2% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/main/re2_3_birnn_label_smooth.ipynb)
+
+* Task: [微粒贷 Data Collected from Github](https://nlp.stanford.edu/projects/snli/)（Chinese）
+
+	* [\<Notebook>: Make Data & Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/data/make_data.ipynb)
+		
+		* [\<Text File>: Data Example](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/data/train.csv)
+		
+	* Model	
+	
+		* [\<Notebook> ESIM -> 82.5% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/esim.ipynb)
+	
+		* [\<Notebook> Match Pyramid -> 82.7% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/pyramid.ipynb)
 
 ---
 
