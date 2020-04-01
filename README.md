@@ -26,13 +26,13 @@
 
 			* [Generative Dialog（生成式对话）](https://github.com/zhedongzheng/finch#generative-dialog)
 
-				* Data Collected from Github (Chinese)
+				* 中文数据 (Chinese)
 
 		* Multi-turn (多轮对话)
 		
-			* [Multi-turn Dialogue Rewriting（多轮对话改写）](https://github.com/zhedongzheng/finch#multi-turn-dialogue-rewriting)（Chinese）
+			* [Multi-turn Dialogue Rewriting（多轮对话改写）](https://github.com/zhedongzheng/finch#multi-turn-dialogue-rewriting)
 
-				* Data Collected from GitHub (Chinese)
+				* 中文数据 (Chinese)
 
 	* [Semantic Parsing（语义解析）](https://github.com/zhedongzheng/finch#semantic-parsing)
 	
