@@ -217,7 +217,7 @@
 			* [\<Notebook> 3-layer RE2 + Label Smoothing -> 88.2% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/main/re2_3_birnn_label_smooth.ipynb)
 
 
-* Task: [微粒贷数据](https://nlp.stanford.edu/projects/snli/)（Chinese）
+* Task: [微粒贷数据](https://github.com/terrifyzhao/text_matching/tree/master/input)（Chinese）
 
 	* [\<Notebook>: Make Data & Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/data/make_data.ipynb)
 		
@@ -228,6 +228,8 @@
 		* [\<Notebook> ESIM -> 82.5% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/esim.ipynb)
 	
 		* [\<Notebook> Match Pyramid -> 82.7% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/pyramid.ipynb)
+		
+		These results are higher than [all of the results here](https://github.com/terrifyzhao/text_matching)
 
 ---
 
