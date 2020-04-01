@@ -12,7 +12,7 @@
 	
 		* SNLI（English）
 	
-		* 微粒贷 Data Collected from GitHub (Chinese)
+		* 微粒贷数据 (Chinese)
 
 	* [Topic Modelling（主题模型）](https://github.com/zhedongzheng/finch#topic-modelling)
 
@@ -216,11 +216,12 @@
 
 			* [\<Notebook> 3-layer RE2 + Label Smoothing -> 88.2% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/main/re2_3_birnn_label_smooth.ipynb)
 
-* Task: [微粒贷 Data Collected from Github](https://nlp.stanford.edu/projects/snli/)（Chinese）
+
+* Task: [微粒贷数据](https://nlp.stanford.edu/projects/snli/)（Chinese）
 
 	* [\<Notebook>: Make Data & Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/data/make_data.ipynb)
 		
-		* [\<Text File>: Data Example](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/data/train.csv)
+		* [\<Text File>: Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow2/text_matching/chinese/data/train.csv)
 		
 	* Model	
 	
