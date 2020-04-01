@@ -12,7 +12,7 @@
 	
 		* SNLI（English）
 	
-		* 微粒贷数据 (Chinese)
+		* 微粒贷数据（Chinese）
 
 	* [Topic Modelling（主题模型）](https://github.com/zhedongzheng/finch#topic-modelling)
 
@@ -26,13 +26,13 @@
 
 			* [Generative Dialog（生成式对话）](https://github.com/zhedongzheng/finch#generative-dialog)
 
-				* 中文数据 (Chinese)
+				* 中文数据（Chinese）
 
 		* Multi-turn (多轮对话)
 		
 			* [Multi-turn Dialogue Rewriting（多轮对话改写）](https://github.com/zhedongzheng/finch#multi-turn-dialogue-rewriting)
 
-				* 中文数据 (Chinese)
+				* 中文数据（Chinese）
 
 	* [Semantic Parsing（语义解析）](https://github.com/zhedongzheng/finch#semantic-parsing)
 	
