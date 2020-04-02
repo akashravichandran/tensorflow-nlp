@@ -220,13 +220,14 @@
 └── finch/tensorflow2/text_matching/chinese
 	│
 	├── data
-	│   └── make_data.ipynb           # step 1. run this to generate char.txt
+	│   └── make_data.ipynb           # step 1. run this to generate char.txt and char.npy
 	│   └── train.csv  		  # incomplete sample, format <text1, text2, label> separated by comma 
 	│   └── test.csv   		  # incomplete sample, format <text1, text2, label> separated by comma
 	│
 	├── vocab
 	│   └── cc.zh.300.vec             # pretrained embedding, download and put here
 	│   └── char.txt                  # incomplete sample, list of chinese characters
+	│   └── char.npy                  # saved pretrained embedding matrix for this task
 	│	
 	└── main              
 		└── pyramid.ipynb      	  # step 2. train and evaluate model
