@@ -6,13 +6,13 @@
 
 	* [Text Classification（文本分类）](https://github.com/zhedongzheng/finch#text-classification)
 	
-		* IMDB（English）
+		* IMDB（English Data）
 
 	* [Text Matching（文本匹配）](https://github.com/zhedongzheng/finch#text-matching)
 	
-		* SNLI（English）
+		* SNLI（English Data）
 	
-		* 微粒贷数据（Chinese）
+		* 微粒贷数据（Chinese Data）
 
 	* [Topic Modelling（主题模型）](https://github.com/zhedongzheng/finch#topic-modelling)
 
@@ -22,25 +22,25 @@
 
 			* [Spoken Language Understanding（对话理解）](https://github.com/zhedongzheng/finch#spoken-language-understanding)
 
-				* ATIS（English）
+				* ATIS（English Data）
 
 			* [Generative Dialog（生成式对话）](https://github.com/zhedongzheng/finch#generative-dialog)
 
-				* 中文数据（Chinese）
+				* 中文数据（Chinese Data）
 
 		* Multi-turn (多轮对话)
 		
 			* [Multi-turn Dialogue Rewriting（多轮对话改写）](https://github.com/zhedongzheng/finch#multi-turn-dialogue-rewriting)
 
-				* 中文数据（Chinese）
+				* 中文数据（Chinese Data）
 
 	* [Semantic Parsing（语义解析）](https://github.com/zhedongzheng/finch#semantic-parsing)
 	
-		* Semantic Parsing for Task Oriented Dialog（English）
+		* Semantic Parsing for Task Oriented Dialog（English Data）
 	
 	* [Question Answering（问题回答）](https://github.com/zhedongzheng/finch#question-answering)
 	
-		* bAbI（Engish）
+		* bAbI（Engish Data）
 		
 	* [Text Transformation（文本变换）](https://github.com/zhedongzheng/finch#text-transformation)
 	
@@ -60,7 +60,7 @@
 
 * [Recommender System（推荐系统）](https://github.com/zhedongzheng/finch#recommender-system)
 
-	* Movielens 1M（English）
+	* Movielens 1M（English Data）
 
 ---
 
@@ -88,7 +88,7 @@
 		└── sliced_rnn_bt.ipynb      # step 2: train and evaluate model
 ```
 
-* Task: [IMDB](http://ai.stanford.edu/~amaas/data/sentiment/)（English）
+* Task: [IMDB](http://ai.stanford.edu/~amaas/data/sentiment/)（English Data）
 	
 	* [\<Notebook>: Make Data & Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/data/make_data.ipynb)
 		
@@ -170,7 +170,7 @@
 		└── esim.ipynb      	  # step 3. train and evaluate model
 ```
 
-* Task: [SNLI](https://nlp.stanford.edu/projects/snli/)（English）
+* Task: [SNLI](https://nlp.stanford.edu/projects/snli/)（English Data）
 
 	* [\<Notebook>: Download Data](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/data/download_data.ipynb)
 	
@@ -232,7 +232,7 @@
 		└── esim.ipynb      	  # step 2. train and evaluate model
 ```
 
-* Task: [微粒贷数据](https://github.com/terrifyzhao/text_matching/tree/master/input)（Chinese）
+* Task: [微粒贷数据](https://github.com/terrifyzhao/text_matching/tree/master/input)（Chinese Data）
 
 	* [\<Notebook>: Make Data & Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/data/make_data.ipynb)
 		
@@ -254,7 +254,7 @@
 
 ## Topic Modelling
 
-* Data: [Some Book Titles](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/spark/topic_modelling/book_titles/all_book_titles.txt)（English）
+* Data: [Some Book Titles](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/spark/topic_modelling/book_titles/all_book_titles.txt)（English Data）
 	* Model: TF-IDF + LDA
 	
 		* PySpark
@@ -292,7 +292,7 @@
 		└── transformer_elu.ipynb     # step 2. train and evaluate model
 ```
 
-* Task: [ATIS](https://github.com/yvchen/JointSLU/tree/master/data)（English） 
+* Task: [ATIS](https://github.com/yvchen/JointSLU/tree/master/data)（English Data） 
 
 	<img src="https://www.csie.ntu.edu.tw/~yvchen/f105-adl/images/atis.png" width="500">
 
@@ -366,7 +366,7 @@
 		
 ```
 
-* Task: Free Chat（Chinese）
+* Task: Free Chat（Chinese Data）
 	* Data
 
 		* [Data provided by GaoQ1](https://github.com/yangjianxin1/GPT2-chitchat#%E9%97%B2%E8%81%8A%E8%AF%AD%E6%96%99%E5%88%86%E4%BA%AB)
@@ -422,7 +422,7 @@
 		
 ```
 
-* Task: [Semantic Parsing for Task Oriented Dialog](https://aclweb.org/anthology/D18-1300)（English）
+* Task: [Semantic Parsing for Task Oriented Dialog](https://aclweb.org/anthology/D18-1300)（English Data）
 
 	* [\<Text File>: Data Example](https://github.com/zhedongzheng/finch/blob/master/finch/tensorflow2/semantic_parsing/tree_slu/data/train.tsv)
 
@@ -554,7 +554,7 @@
 		└── attn_gru_cell.py
 ```
 
-* Task: [bAbI](https://research.fb.com/downloads/babi/)（English）
+* Task: [bAbI](https://research.fb.com/downloads/babi/)（English Data）
 
 	* [\<Text File>: Data Example](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/question_answering/babi/data/qa5_three-arg-relations_test.txt)
 	
@@ -618,7 +618,7 @@
 		└── dnn_mse.ipynb
 ```
 
-* Task: [Movielens 1M](https://grouplens.org/datasets/movielens/1m/)（English）
+* Task: [Movielens 1M](https://grouplens.org/datasets/movielens/1m/)（English Data）
 	
 	* [\<Notebook>: Make Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/data/make_data.ipynb)
 
@@ -655,7 +655,7 @@
 		└── baseline_lstm_predict.ipynb
 ```
 
-* Task: Multi-turn Dialogue Rewriting（Chinese）
+* Task: Multi-turn Dialogue Rewriting（Chinese Data）
 
 	* [\<Text File>: Data](https://github.com/chin-gyou/dialogue-utterance-rewriter/blob/master/corpus.txt)
 	
