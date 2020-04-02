@@ -216,6 +216,22 @@
 
 			* [\<Notebook> 3-layer RE2 + Label Smoothing -> 88.2% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/main/re2_3_birnn_label_smooth.ipynb)
 
+```
+└── finch/tensorflow2/text_matching/chinese
+	│
+	├── data
+	│   └── make_data.ipynb           # step 1. run this to generate char.txt
+	│   └── train.csv  		  # incomplete sample, format <text1, text2, label> separated by comma 
+	│   └── test.csv   		  # incomplete sample, format <text1, text2, label> separated by comma
+	│
+	├── vocab
+	│   └── cc.zh.300.vec             # pretrained embedding, download and put here
+	│   └── char.txt                  # incomplete sample, list of chinese characters
+	│	
+	└── main              
+		└── pyramid.ipynb      	  # step 2. train and evaluate model
+		└── esim.ipynb      	  # step 2. train and evaluate model
+```
 
 * Task: [微粒贷数据](https://github.com/terrifyzhao/text_matching/tree/master/input)（Chinese）
 
