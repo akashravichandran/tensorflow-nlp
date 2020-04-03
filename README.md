@@ -90,7 +90,7 @@
 
 * Task: [IMDB](http://ai.stanford.edu/~amaas/data/sentiment/)（English Data）
 	
-	* Training Data: 25000, Testing Data: 25000
+	* Training Data: 25000, Testing Data: 25000, 
 	
 	* [\<Notebook>: Make Data & Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/data/make_data.ipynb)
 		
@@ -174,6 +174,8 @@
 
 * Task: [SNLI](https://nlp.stanford.edu/projects/snli/)（English Data）
 
+	* Training Data: 550152, Testing Data: 10000, Labels: 3
+
 	* [\<Notebook>: Download Data](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/data/download_data.ipynb)
 	
 	* [\<Notebook>: Make Data & Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/data/make_data.ipynb)
@@ -236,7 +238,7 @@
 
 * Task: [微粒贷数据](https://github.com/terrifyzhao/text_matching/tree/master/input)（Chinese Data）
 
-	* Training Data: 100000, Testing Data: 10000
+	* Training Data: 100000, Testing Data: 10000, Labels: 2
 
 	* [\<Notebook>: Make Data & Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/data/make_data.ipynb)
 		
