@@ -90,7 +90,7 @@
 
 * Task: [IMDB](http://ai.stanford.edu/~amaas/data/sentiment/)（English Data）
 	
-	* Training Data: 25000, Testing Data: 25000, Labels: 2
+        Training Data: 25000, Testing Data: 25000, Labels: 2
 	
 	* [\<Notebook>: Make Data & Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/data/make_data.ipynb)
 		
@@ -174,7 +174,7 @@
 
 * Task: [SNLI](https://nlp.stanford.edu/projects/snli/)（English Data）
 
-	* Training Data: 550152, Testing Data: 10000, Labels: 3
+        Training Data: 550152, Testing Data: 10000, Labels: 3
 
 	* [\<Notebook>: Download Data](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/data/download_data.ipynb)
 	
@@ -238,7 +238,7 @@
 
 * Task: [微粒贷数据](https://github.com/terrifyzhao/text_matching/tree/master/input)（Chinese Data）
 
-	* Training Data: 100000, Testing Data: 10000, Labels: 2
+        Training Data: 100000, Testing Data: 10000, Labels: 2
 
 	* [\<Notebook>: Make Data & Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/data/make_data.ipynb)
 		
@@ -261,6 +261,9 @@
 ## Topic Modelling
 
 * Data: [Some Book Titles](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/spark/topic_modelling/book_titles/all_book_titles.txt)（English Data）
+
+        2373 lines of book titles
+
 	* Model: TF-IDF + LDA
 	
 		* PySpark
@@ -302,7 +305,7 @@
 
 	<img src="https://www.csie.ntu.edu.tw/~yvchen/f105-adl/images/atis.png" width="500">
 
-	* Training Data: 4978, Testing Data: 893
+        Training Data: 4978, Testing Data: 893
 
 	* [\<Text File>: Data Example](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/spoken_language_understanding/atis/data/atis.train.w-intent.iob)
 
@@ -432,7 +435,7 @@
 
 * Task: [Semantic Parsing for Task Oriented Dialog](https://aclweb.org/anthology/D18-1300)（English Data）
 
-	* Training Data: 31279, Testing Data: 9042
+        Training Data: 31279, Testing Data: 9042
 
 	* [\<Text File>: Data Example](https://github.com/zhedongzheng/finch/blob/master/finch/tensorflow2/semantic_parsing/tree_slu/data/train.tsv)
 
@@ -630,7 +633,7 @@
 
 * Task: [Movielens 1M](https://grouplens.org/datasets/movielens/1m/)（English Data）
 	
-        * Training Data: 900228, Testing Data: 99981
+        Training Data: 900228, Testing Data: 99981
 
 	* [\<Notebook>: Make Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/data/make_data.ipynb)
 
@@ -669,7 +672,7 @@
 
 * Task: Multi-turn Dialogue Rewriting（Chinese Data）
 
-	* Training Data: 19018, Testing Data: 980
+        Training Data: 19018, Testing Data: 980
 
 	* [\<Text File>: Data](https://github.com/chin-gyou/dialogue-utterance-rewriter/blob/master/corpus.txt)
 	
