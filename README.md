@@ -90,7 +90,7 @@
 
 * Task: [IMDB](http://ai.stanford.edu/~amaas/data/sentiment/)（English Data）
 	
-	* Training Data: 25000, Testing Data: 25000, 
+	* Training Data: 25000, Testing Data: 25000, Labels: 2
 	
 	* [\<Notebook>: Make Data & Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/data/make_data.ipynb)
 		
