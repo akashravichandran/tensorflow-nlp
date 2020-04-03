@@ -90,6 +90,8 @@
 
 * Task: [IMDB](http://ai.stanford.edu/~amaas/data/sentiment/)（English Data）
 	
+	* Training Data: 25000, Testing Data: 25000
+	
 	* [\<Notebook>: Make Data & Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/data/make_data.ipynb)
 		
 		* [\<Text File>: Data Example](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/data/train.txt)
@@ -234,6 +236,8 @@
 
 * Task: [微粒贷数据](https://github.com/terrifyzhao/text_matching/tree/master/input)（Chinese Data）
 
+	* Training Data: 100000, Testing Data: 10000
+
 	* [\<Notebook>: Make Data & Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/data/make_data.ipynb)
 		
 		* [\<Text File>: Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow2/text_matching/chinese/data/train.csv)
@@ -295,6 +299,8 @@
 * Task: [ATIS](https://github.com/yvchen/JointSLU/tree/master/data)（English Data） 
 
 	<img src="https://www.csie.ntu.edu.tw/~yvchen/f105-adl/images/atis.png" width="500">
+
+	* Training Data: 4978, Testing Data: 893
 
 	* [\<Text File>: Data Example](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/spoken_language_understanding/atis/data/atis.train.w-intent.iob)
 
@@ -656,6 +662,8 @@
 ```
 
 * Task: Multi-turn Dialogue Rewriting（Chinese Data）
+
+	* Training Data: 19018, Testing Data: 980
 
 	* [\<Text File>: Data](https://github.com/chin-gyou/dialogue-utterance-rewriter/blob/master/corpus.txt)
 	
