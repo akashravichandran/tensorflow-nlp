@@ -260,9 +260,7 @@
 
 ## Topic Modelling
 
-* Data: [Some Book Titles](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/spark/topic_modelling/book_titles/all_book_titles.txt)（English Data）
-
-        2373 lines of book titles
+* Data: [2373 Lines of Book Titles](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/spark/topic_modelling/book_titles/all_book_titles.txt)（English Data）
 
 	* Model: TF-IDF + LDA
 	
