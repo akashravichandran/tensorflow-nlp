@@ -12,7 +12,7 @@
 	
 		* SNLI（English Data）
 	
-		* 微粒贷数据（Chinese Data）
+		* 微众银行客户问句（Chinese Data）
 
 	* [Topic Modelling（主题模型）](https://github.com/zhedongzheng/finch#topic-modelling)
 
@@ -236,7 +236,7 @@
 		└── esim.ipynb      	  # step 2. train and evaluate model
 ```
 
-* Task: [微粒贷数据](https://github.com/terrifyzhao/text_matching/tree/master/input)（Chinese Data）
+* Task: [微众银行客户问句](https://github.com/terrifyzhao/text_matching/tree/master/input)（Chinese Data）
 
         Training Data: 100000, Testing Data: 10000, Labels: 2
 
@@ -254,7 +254,7 @@
 		
 		* [\<Notebook> RE2 -> 82.9% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/re2.ipynb)
 		
-		These results are higher than [all of the results here](https://github.com/terrifyzhao/text_matching)
+		These results are higher than [the results here](https://github.com/terrifyzhao/text_matching) and [the result here](https://github.com/liuhuanyong/SiameseSentenceSimilarity)
 
 ---
 
