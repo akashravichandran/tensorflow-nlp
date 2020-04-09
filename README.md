@@ -12,7 +12,7 @@
 	
 		* SNLI（English Data）
 	
-		* 微众银行客户问句（Chinese Data）
+		* 微众银行智能客服（Chinese Data）
 
 	* [Topic Modelling（主题模型）](https://github.com/zhedongzheng/finch#topic-modelling)
 
@@ -236,7 +236,7 @@
 		└── esim.ipynb      	  # step 2. train and evaluate model
 ```
 
-* Task: [微众银行客户问句](https://github.com/terrifyzhao/text_matching/tree/master/input)（Chinese Data）
+* Task: [微众银行智能客服](https://github.com/terrifyzhao/text_matching/tree/master/input)（Chinese Data）
 
         Training Data: 100000, Testing Data: 10000, Labels: 2
 
