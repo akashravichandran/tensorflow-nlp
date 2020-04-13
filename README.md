@@ -382,7 +382,7 @@
 
 		* [Obtain Data](https://github.com/codemayq/chinese_chatbot_corpus)
 		
-		* [Data Sample](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/data/raw_data.csv)
+		* [Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/data/train.txt)
 
 		* [\<Notebook>: Make Data & Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/data/make_data.ipynb)
 
