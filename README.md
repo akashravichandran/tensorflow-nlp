@@ -666,7 +666,9 @@
 
 * Task: Multi-turn Dialogue Rewriting（Chinese Data）
 
-        Training Data: 19018, Testing Data: 980
+        Training Data (Positive): 19018, Testing Data (Positive): 980
+	
+        1:1 Positive: Negative Sampling
 
 	* [\<Text File>: Data](https://github.com/chin-gyou/dialogue-utterance-rewriter/blob/master/corpus.txt)
 	
