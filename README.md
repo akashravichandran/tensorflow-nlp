@@ -379,11 +379,14 @@
 ```
 
 * Task: 青云语料（Chinese Data）
+
+        Training Data: 107687, Testing Data: 3350
+	
 	* Data
 
-		* [Obtain Data](https://github.com/codemayq/chinese_chatbot_corpus)
+		* [\<Web Link>: Obtain Data](https://github.com/codemayq/chinese_chatbot_corpus)
 		
-		* [Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/data/train.txt)
+		* [\<Text File>: Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/data/train.txt)
 
 		* [\<Notebook>: Make Data & Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/data/make_data.ipynb)
 
