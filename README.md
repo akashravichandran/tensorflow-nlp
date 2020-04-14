@@ -36,7 +36,7 @@
 
 	* [Semantic Parsing（语义解析）](https://github.com/zhedongzheng/finch#semantic-parsing)
 	
-		* Semantic Parsing for Task Oriented Dialog（English Data）
+		* "Semantic Parsing for Task Oriented Dialog"（English Data）
 	
 	* [Question Answering（问题回答）](https://github.com/zhedongzheng/finch#question-answering)
 	
