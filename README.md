@@ -391,17 +391,13 @@
 
 		* TensorFlow 1
 			
-			* [\<Notebook> Training](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/lstm_seq2seq_train.ipynb)
-			
-				LSTM + Attention + Beam Search -> 3.408 Testing Perplexity
+			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/lstm_seq2seq_train.ipynb) LSTM + Attention + Beam Search -> 3.408 Testing Perplexity
 			
 	* Model: [Transformer](https://arxiv.org/abs/1706.03762)
 
 		* TensorFlow 1
 			
-			* [\<Notebook> Training](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/transformer_train.ipynb)
-			
-				Transformer (4 Layers, 8 Heads) -> 3.818 Testing Perplexity
+			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/transformer_train.ipynb) Transformer (4 Layers, 8 Heads) -> 3.818 Testing Perplexity
 
 ---
 
