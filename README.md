@@ -401,7 +401,7 @@
 			
 			* [\<Notebook> Training](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/transformer_train.ipynb)
 			
-				Transformer ( Layers, Heads) ->  Testing Perplexity
+				Transformer (4 Layers, 8 Heads) -> 3.818 Testing Perplexity
 
 ---
 
