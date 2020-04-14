@@ -652,6 +652,11 @@
 	│
 	├── data
 	│   └── make_data.ipynb         # run this to generate vocab, split train & test data, make pretrained embedding
+	│   └── corpus.txt		# original data downloaded from external
+	│   └── train_pos.txt		# processed positive training data
+	│   └── train_neg.txt		# processed negative training data
+	│   └── test_pos.txt		# processed negative testing data
+	│   └── test_neg.txt		# processed negative testing data
 	│
 	├── vocab
 	│   └── cc.zh.300.vec		# fastText pretrained embedding downloaded from external
