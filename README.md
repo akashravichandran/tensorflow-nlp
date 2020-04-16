@@ -254,7 +254,7 @@
 
 			* [\<Notebook> RE2 + Cyclical LR -> 83.1% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/re2_cyclical.ipynb)
 
-			* [\<Notebook> RE2 + Cyclical LR + Label Smoothing -> 83.4% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/re2_cyclical_label_smooth.ipynb)
+			* [\<Notebook> RE2 + Cyclical LR + Label Smoothing -> 83.4% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow2/text_matching/chinese/main/re2_cyclical_label_smooth.ipynb)
 
 			These results are higher than [the results here](https://github.com/terrifyzhao/text_matching) and [the result here](https://github.com/liuhuanyong/SiameseSentenceSimilarity)
 
