@@ -185,33 +185,27 @@
 		
 		* [\<Text File>: Vocabulary Example](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/vocab/word.txt)
 
-	* Model: [DAM](https://arxiv.org/abs/1606.01933)
-	
-		* TensorFlow 2
+	* TensorFlow 2
+
+		* Model: [DAM](https://arxiv.org/abs/1606.01933)
 		
 			* [\<Notebook> DAM -> 85.3% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/main/dam.ipynb)
 			
 			 	The accuracy of this implementation is higher than [UCL MR Group](http://isabelleaugenstein.github.io/papers/JTR_ACL_demo_paper.pdf) (84.6%)
 
-	* Model: [Match Pyramid](https://arxiv.org/abs/1602.06359)
-	
-		* TensorFlow 2
+		* Model: [Match Pyramid](https://arxiv.org/abs/1602.06359)
 			
 			* [\<Notebook> Match Pyramid -> 87.1% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/main/pyramid_multi_attn.ipynb)
 
 	 		 	The accuracy of this model is 0.3% below ESIM, however the speed is 1x faster than ESIM
 
-	* Model: [ESIM](https://arxiv.org/abs/1609.06038)
-	
-		* TensorFlow 2
+		* Model: [ESIM](https://arxiv.org/abs/1609.06038)
 		
 			* [\<Notebook> ESIM -> 87.4% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/main/esim.ipynb)
 
 			 	The accuracy of this implementation is sligntly higher than [UCL MR Group](http://isabelleaugenstein.github.io/papers/JTR_ACL_demo_paper.pdf) (87.2%)
 
-	* Model: [RE2](https://arxiv.org/abs/1908.00300)
-	
-		* TensorFlow 2
+		* Model: [RE2](https://arxiv.org/abs/1908.00300)
 		
 			* [\<Notebook> RE2 -> 87.7% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/main/re2_birnn.ipynb)
 
@@ -250,15 +244,17 @@
 		
 	* Model	
 	
-		* [\<Notebook> ESIM -> 82.5% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/esim.ipynb)
+		* TensorFlow 2
 	
-		* [\<Notebook> Match Pyramid -> 82.7% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/pyramid.ipynb)
-		
-		* [\<Notebook> RE2 -> 82.9% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/re2.ipynb)
-		
-		* [\<Notebook> RE2 + Cyclical LR -> 83.1% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/re2_cyclical.ipynb)
-		
-		These results are higher than [the results here](https://github.com/terrifyzhao/text_matching) and [the result here](https://github.com/liuhuanyong/SiameseSentenceSimilarity)
+			* [\<Notebook> ESIM -> 82.5% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/esim.ipynb)
+
+			* [\<Notebook> Match Pyramid -> 82.7% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/pyramid.ipynb)
+
+			* [\<Notebook> RE2 -> 82.9% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/re2.ipynb)
+
+			* [\<Notebook> RE2 + Cyclical LR -> 83.1% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/re2_cyclical.ipynb)
+
+			These results are higher than [the results here](https://github.com/terrifyzhao/text_matching) and [the result here](https://github.com/liuhuanyong/SiameseSentenceSimilarity)
 
 ---
 
