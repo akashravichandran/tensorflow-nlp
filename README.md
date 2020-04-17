@@ -673,7 +673,7 @@
 
         Training Data (Positive): 19018, Testing Data (Positive): 980
 	
-        Training Data = 2 * 19018 due to 1:1 Positive - Negative Sampling 
+        Training Data = 2 * 19018 because of 1:1 Negative Sampling 
 
 	* [\<Text File>: Data](https://github.com/chin-gyou/dialogue-utterance-rewriter/blob/master/corpus.txt)
 	
