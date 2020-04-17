@@ -42,7 +42,7 @@
 	
 		* bAbI（Engish Data）
 		
-	* [Text Transformation（文本变换）](https://github.com/zhedongzheng/finch#text-transformation)
+	* [Text Processing Tools（文本处理工具）](https://github.com/zhedongzheng/finch#text-processing-tools)
 	
 		* Word Extraction
 	
@@ -577,7 +577,7 @@
 
 ---
 
-## Text Transformation
+## Text Processing Tools
 
 * Word Extraction
 
