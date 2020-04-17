@@ -52,7 +52,7 @@
 
 * Knowledge Graph（知识图谱）
 	
-	* [Knowledge Graph Construction（知识图谱构建）](https://github.com/zhedongzheng/finch#knowledge-graph-construction)
+	* [Knowledge Graph Tools（知识图谱工具）](https://github.com/zhedongzheng/finch#knowledge-graph-tools)
 	
 	* [Knowledge Graph Inference（知识图谱推理）](https://github.com/zhedongzheng/finch#knowledge-graph-inference)
 	
@@ -522,7 +522,7 @@
 
 ---
 
-## Knowledge Graph Construction
+## Knowledge Graph Tools
 
 * Data Scraping
 
