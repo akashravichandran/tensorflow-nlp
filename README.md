@@ -374,8 +374,11 @@
 	│	
 	└── main
 		└── lstm_seq2seq_train.ipynb    # step 2. train and evaluate model
+		└── lstm_seq2seq_export.ipynb   # step 3. export model
+		└── lstm_seq2seq_infer.ipynb    # step 4. model inference
 		└── transformer_train.ipynb     # step 2. train and evaluate model
-		
+		└── transformer_export.ipynb    # step 3. export model
+		└── transformer_infer.ipynb     # step 4. model inference
 ```
 
 * Task: 青云语料（Chinese Data）
