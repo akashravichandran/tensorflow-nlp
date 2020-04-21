@@ -35,6 +35,8 @@
 			* [Multi-turn Dialogue Rewriting（多轮对话改写）](https://github.com/zhedongzheng/finch#multi-turn-dialogue-rewriting)
 
 				* 微信 AI 研发数据（Chinese Data）
+				
+					* Python Inference（基于Python的推理）
 
 	* [Semantic Parsing（语义解析）](https://github.com/zhedongzheng/finch#semantic-parsing)
 	
