@@ -395,7 +395,13 @@
 		* TensorFlow 1
 			
 			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/lstm_seq2seq_train.ipynb) LSTM + Attention -> 3.568 Testing Perplexity
+
+		* Model Inference
+		
+			* [\<Notebook> Model Export](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/lstm_seq2seq_export.ipynb)
 			
+			* [\<Notebook> Python Inference](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/lstm_seq2seq_infer.ipynb)
+
 	* Model: [Transformer](https://arxiv.org/abs/1706.03762)
 
 		* TensorFlow 1
