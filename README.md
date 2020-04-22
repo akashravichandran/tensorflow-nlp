@@ -264,7 +264,7 @@
 
 		* TensorFlow 1
 		
-			* [\<Notebook> BERT -> 84.5% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/text_matching/chinese/main/bert_chinese_wwm.ipynb)
+			* [\<Notebook> BERT -> 85.0% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/text_matching/chinese/main/bert_chinese_wwm.ipynb)
 			
 				Weights downloaded from [here](https://github.com/ymcui/Chinese-BERT-wwm)
 
