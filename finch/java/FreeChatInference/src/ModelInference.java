@@ -105,18 +105,18 @@ public class ModelInference {
         
         System.out.println("Input: " + query);
         for (int k=0; k<beamWidth; k++) {
-        	System.out.print("Rank_" + k + ": ");
-        	for (int j=0; j<timeStep; j++) {
-            	int c = resultArray[0][j][k];
-            	if (c != 0 && c != 2) {
-            		if (idx2char.containsKey(c)) {
-            			System.out.print(idx2char.get(resultArray[0][j][k]));
-            		} else {
-            			System.out.print("<unk>");
-            		} // end if-else
+            System.out.print("Rank_" + k + ": ");
+            for (int j=0; j<timeStep; j++) {
+                int c = resultArray[0][j][k];
+                if (c != 0 && c != 2) {
+                    if (idx2char.containsKey(c)) {
+                        System.out.print(idx2char.get(resultArray[0][j][k]));
+                    } else {
+                        System.out.print("<unk>");
+                    } // end if-else
                 } // end if
             } // end for
-        	System.out.println();
+            System.out.println();
         } // end for
 	} // end main method
 } // end class ModelInference
