@@ -49,9 +49,9 @@ public class ModelInference {
         String line;
         
         while ((line = br.readLine()) != null) {
-        	char2idx.put(line, count);
-        	idx2char.put(count, line);
-        	count += 1;
+            char2idx.put(line, count);
+            idx2char.put(count, line);
+            count += 1;
         }
         br.close();
         System.out.println("Vocab Length: " + char2idx.size());
@@ -71,11 +71,11 @@ public class ModelInference {
     	String[] chars = sentence.split("");
     	
     	for (int i=0; i<sent_len; i++) {
-    		if (char2idx.containsKey(chars[i])) {
-    			indexArray[0][i] = char2idx.get(chars[i]);
-    		} else {
-    			indexArray[0][i] = char2idx.size();
-    		} // end if-else
+    	    if (char2idx.containsKey(chars[i])) {
+    	        indexArray[0][i] = char2idx.get(chars[i]);
+    	    } else {
+    	        indexArray[0][i] = char2idx.size();
+    	    } // end if-else
     	} // end for
     	
     	return indexArray;
