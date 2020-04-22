@@ -627,12 +627,6 @@
 
 		* [\<Notebook>: Regex Rule](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/python/regex/zhcn_extract.ipynb)
 
-* Text Vectorization 
-
-	* Chinese
-
-		* [\<Notebook>: BERT](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/bert_zhcn/feature.ipynb)
-
 * Word Segmentation
 
 	* Chinese
