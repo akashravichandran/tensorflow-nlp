@@ -69,9 +69,9 @@ public class ModelInference {
 	
 	
 	public static void main(String[] args) throws IOException {
-		String query = "ÎÒÏëÄãÁË";
+        String query = "æˆ‘æƒ³ä½ äº†";
 		
-		readVocab("./data/char.txt");
+        readVocab("./data/char.txt");
 		
         Session session = loadTFModel("C:\\Users\\zhedong.zheng\\eclipse-workspace\\FreeChatInference\\data\\transformer_export\\1587450204", "serve");
         
