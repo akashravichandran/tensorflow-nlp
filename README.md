@@ -29,6 +29,8 @@
 				* 青云语料（Chinese Data）
 				
 					* Python Inference（基于Python的推理）
+					
+					* Java Inference（基于Java的推理）
 
 		* Multi-turn (多轮对话)
 		
@@ -424,6 +426,8 @@
 			* [\<Notebook> Model Export](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/transformer_export.ipynb)
 			
 			* [\<Notebook> Python Inference](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/transformer_infer.ipynb)
+			
+			* [\<Notebook> Java Inference](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/java/FreeChatInference/src/ModelInference.java)
 
 ---
 
