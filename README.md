@@ -28,9 +28,9 @@
 
 				* 青云语料（Chinese Data）
 				
-					* Python Inference（基于Python的推理）
+					* Python Inference（基于 Python 的推理）
 					
-					* Java Inference（基于Java的推理）
+					* Java Inference（基于 Java 的推理）
 
 		* Multi-turn (多轮对话)
 		
@@ -38,7 +38,7 @@
 
 				* 微信 AI 研发数据（Chinese Data）
 				
-					* Python Inference（基于Python的推理）
+					* Python Inference（基于 Python 的推理）
 
 	* [Semantic Parsing（语义解析）](https://github.com/zhedongzheng/finch#semantic-parsing)
 	
