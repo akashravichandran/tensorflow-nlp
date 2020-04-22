@@ -19,12 +19,12 @@ public class ModelInference {
 	
 	
     static {
-		try {
-			System.load("C:\\Users\\zhedong.zheng\\eclipse-workspace\\FreeChatInference\\data\\tensorflow_jni.dll");
-		} catch (UnsatisfiedLinkError e) {
-			System.err.println("Native code library failed to load.\n" + e);
-			System.exit(1);
-		}
+	    try {
+	        System.load("C:\\Users\\zhedong.zheng\\eclipse-workspace\\FreeChatInference\\data\\tensorflow_jni.dll");
+	    } catch (UnsatisfiedLinkError e) {
+	        System.err.println("Native code library failed to load.\n" + e);
+	        System.exit(1);
+	    }
     }
 	
 	
