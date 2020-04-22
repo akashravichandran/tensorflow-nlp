@@ -11,7 +11,6 @@
 	    └── ModelInference.java
 */
 
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -26,11 +25,9 @@ import org.tensorflow.Session;
 import org.tensorflow.Tensor;
 import org.tensorflow.SavedModelBundle;
 
-
 public class ModelInference {
     private static Map<String, Integer> char2idx = new HashMap<>();
     private static Map<Integer, String> idx2char = new HashMap<>();
-	
 	
     static {
         try {
@@ -40,7 +37,6 @@ public class ModelInference {
             System.exit(1);
         }
     }
-	
 	
     private static void readVocab(String pathname) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(pathname))));
@@ -57,13 +53,11 @@ public class ModelInference {
         System.out.println("Vocab Length: " + char2idx.size());
 	} // end method readVocab
 
-	
     private static Session loadTFModel(String pathname, String tag) throws IOException{
         SavedModelBundle modelBundle = SavedModelBundle.load(pathname, tag);
         Session session = modelBundle.session();
         return session;
-    }
-    
+    } // end method loadTFModel
     
     public static int[][] processUtterance(String sentence) {
     	int sent_len = sentence.length();
@@ -79,8 +73,7 @@ public class ModelInference {
     	} // end for
     	
     	return indexArray;
-    }
-	
+    } // end method processUtterance
 	
     public static void main(String[] args) throws IOException {
         String query = "我想你了";
@@ -118,5 +111,5 @@ public class ModelInference {
             } // end for
             System.out.println();
         } // end for
-	} // end main method
+    } // end main method
 } // end class ModelInference
