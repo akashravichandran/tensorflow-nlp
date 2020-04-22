@@ -14,18 +14,18 @@ import org.tensorflow.SavedModelBundle;
 
 
 public class ModelInference {
-	private static Map<String, Integer> char2idx = new HashMap<>();
-	private static Map<Integer, String> idx2char = new HashMap<>();
+    private static Map<String, Integer> char2idx = new HashMap<>();
+    private static Map<Integer, String> idx2char = new HashMap<>();
 	
 	
-	static {
+    static {
 		try {
 			System.load("C:\\Users\\zhedong.zheng\\eclipse-workspace\\FreeChatInference\\data\\tensorflow_jni.dll");
 		} catch (UnsatisfiedLinkError e) {
 			System.err.println("Native code library failed to load.\n" + e);
 			System.exit(1);
 		}
-	}
+    }
 	
 	
     private static void readVocab(String pathname) throws IOException{
