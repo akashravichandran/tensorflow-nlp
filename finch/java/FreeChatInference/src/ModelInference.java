@@ -68,7 +68,7 @@ public class ModelInference {
     }
 	
 	
-	public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         String query = "我想你了";
 		
         readVocab("./data/char.txt");
@@ -100,8 +100,8 @@ public class ModelInference {
             		} else {
             			System.out.print("<unk>");
             		} // end if-else
-            	} // end if
-        	} // end for
+                } // end if
+            } // end for
         	System.out.println();
         } // end for
 	} // end main method
