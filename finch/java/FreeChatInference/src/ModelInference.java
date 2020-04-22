@@ -28,7 +28,7 @@ public class ModelInference {
 	}
 	
 	
-	private static void readVocab(String pathname) throws IOException{
+    private static void readVocab(String pathname) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File(pathname))));
         
         int count = 0;
