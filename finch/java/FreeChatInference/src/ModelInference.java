@@ -8,7 +8,7 @@
 	│   └── tensorflow_jni.dll
 	│
 	└── src              
-		└── ModelInference.java
+	    └── ModelInference.java
 */
 
 
