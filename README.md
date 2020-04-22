@@ -417,7 +417,7 @@
 
 	* Model: [Transformer](https://arxiv.org/abs/1706.03762)
 
-		* TensorFlow 1
+		* TensorFlow 1 + [texar](https://github.com/asyml/texar)
 			
 			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/transformer_train.ipynb) Transformer (6 Layers, 8 Heads) -> 3.540 Testing Perplexity
 
