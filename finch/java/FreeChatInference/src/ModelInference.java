@@ -1,3 +1,17 @@
+/*
+└── FreeChatInference
+	│
+	├── data
+	│   └── transformer_export
+	│   └── char.txt
+	│   └── libtensorflow-1.14.0.jar
+	│   └── tensorflow_jni.dll
+	│
+	└── src              
+		└── ModelInference.java
+*/
+
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
