@@ -262,7 +262,7 @@
 
 			These results are higher than [the results here](https://github.com/terrifyzhao/text_matching) and [the result here](https://github.com/liuhuanyong/SiameseSentenceSimilarity)
 
-		* TensorFlow 1
+		* TensorFlow 1 + [bert4keras](https://github.com/bojone/bert4keras) provided by Jianlin Su
 		
 			* [\<Notebook> BERT -> 85.0% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/text_matching/chinese/main/bert_chinese_wwm.ipynb)
 			
