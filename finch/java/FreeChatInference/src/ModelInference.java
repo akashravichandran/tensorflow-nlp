@@ -51,7 +51,7 @@ public class ModelInference {
         }
         br.close();
         System.out.println("Vocab Length: " + char2idx.size());
-	} // end method readVocab
+    } // end method readVocab
 
     private static Session loadTFModel(String pathname, String tag) throws IOException{
         SavedModelBundle modelBundle = SavedModelBundle.load(pathname, tag);
