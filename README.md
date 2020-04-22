@@ -428,8 +428,21 @@
 			* [\<Notebook> Model Export](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/transformer_export.ipynb)
 			
 			* [\<Notebook> Python Inference](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/transformer_infer.ipynb)
-			
-			* [\<Notebook> Java Inference](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/java/FreeChatInference/src/ModelInference.java)
+
+```
+└── FreeChatInference
+	│
+	├── data
+	│   └── transformer_export/
+	│   └── char.txt
+	│   └── libtensorflow-1.14.0.jar
+	│   └── tensorflow_jni.dll
+	│
+	└── src              
+	    └── ModelInference.java
+```
+
+* [\<Notebook> Java Inference](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/java/FreeChatInference/src/ModelInference.java)
 
 ---
 
