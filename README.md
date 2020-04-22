@@ -52,8 +52,6 @@
 	
 		* Word Extraction
 	
-		* Text Vectorization
-	
 		* Word Segmentation
 
 * Knowledge Graph（知识图谱）
