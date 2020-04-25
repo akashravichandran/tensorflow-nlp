@@ -681,7 +681,7 @@
 
 ## Multi-turn Dialogue Rewriting
 
-<img src="https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/demo.jpeg" height="500">
+<img src="https://pic4.zhimg.com/80/v2-85c1e80a2f626ef827ef762e78d85143_1440w.jpg">
 
 ```
 └── finch/tensorflow1/multi_turn_rewrite/chinese/
