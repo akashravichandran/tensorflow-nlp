@@ -407,7 +407,7 @@
 
 		* TensorFlow 1
 			
-			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/lstm_seq2seq_train.ipynb) LSTM + Attention -> 3.568 Testing Perplexity
+			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/lstm_seq2seq_train.ipynb) LSTM + Attention + Beam Search -> 3.568 Testing Perplexity
 
 		* Model Inference
 		
