@@ -40,6 +40,8 @@
 				
 					* Python Inference（基于 Python 的推理）
 
+					* Java Inference（基于 Java 的推理）
+
 	* [Semantic Parsing（语义解析）](https://github.com/zhedongzheng/finch#semantic-parsing)
 	
 		* Facebook AI Research Data（English Data）
@@ -707,9 +709,9 @@
 
 * Task: Multi-turn Dialogue Rewriting（Chinese Data）
 
-        Training Data (Positive): 19018, Testing Data (Positive): 980
+        Training Data (Positive): 18986, Testing Data (Positive): 1008
 	
-        Training Data = 2 * 19018 because of 1:1 Negative Sampling 
+        Training Data = 2 * 18986 because of 1:1 Negative Sampling 
 
 	* [\<Text File>: Data](https://github.com/chin-gyou/dialogue-utterance-rewriter/blob/master/corpus.txt)
 	
@@ -721,10 +723,25 @@
 		
 			* [\<Notebook> LSTM + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_train.ipynb)
 			
-			 	-> BLEU-1: 95.0, &nbsp; BLEU-2: 89.4, &nbsp; BELU-4: 79.0, &nbsp; EM: 56.7%
+			 	-> BLEU-1: 94.6, &nbsp; BLEU-2: 88.8, &nbsp; BELU-4: 77.8, &nbsp; EM: 56.2%
 
 				This result (without BERT) is comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
 
 			* [\<Notebook> Export](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_export.ipynb)
 			
 			* [\<Notebook> Inference](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_predict.ipynb)
+
+```
+└── MultiDialogInference
+	│
+	├── data
+	│   └── baseline_lstm_export/
+	│   └── char.txt
+	│   └── libtensorflow-1.14.0.jar
+	│   └── tensorflow_jni.dll
+	│
+	└── src              
+	    └── ModelInference.java
+```
+
+* [\<Notebook> Java Inference](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/java/MultiDialogInference/src/ModelInference.java)
