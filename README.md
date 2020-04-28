@@ -682,6 +682,8 @@
 			 > MAE: Mean Absolute Error
 			
 			* [\<Notebook> Fusion + Softmax -> 0.633 Testing MAE](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_softmax.ipynb)
+			
+			* [\<Notebook> Fusion + Sigmoid -> 0.663 Testing MAE](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_sigmoid.ipynb)
 
 ---
 
