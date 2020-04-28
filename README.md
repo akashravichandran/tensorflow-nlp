@@ -680,10 +680,12 @@
 		* TensorFlow 1
 		
 			 > MAE: Mean Absolute Error
-			
-			* [\<Notebook> Fusion + Softmax -> 0.633 Testing MAE](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_softmax.ipynb)
-			
+
 			* [\<Notebook> Fusion + Sigmoid -> 0.663 Testing MAE](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_sigmoid.ipynb)
+
+			* [\<Notebook> Fusion + Softmax -> 0.633 Testing MAE](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_softmax.ipynb)
+
+				The MAE results seem better than the [all the results here](http://mymedialite.net/examples/datasets.html) and [all the results here](https://test.pypi.org/project/scikit-surprise/)
 
 ---
 
