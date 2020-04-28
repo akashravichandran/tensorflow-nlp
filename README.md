@@ -664,7 +664,7 @@
 	│	
 	└── main              
 		└── dnn_softmax.ipynb
-		└── dnn_mse.ipynb
+		└── ......
 ```
 
 * Task: [Movielens 1M](https://grouplens.org/datasets/movielens/1m/)（English Data）
@@ -680,10 +680,8 @@
 		* TensorFlow 1
 		
 			 > MAE: Mean Absolute Error
-		
-			* [\<Notebook> Fusion + Regression Loss -> 0.6618 Testing MAE](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_mse.ipynb)
 			
-			* [\<Notebook> Fusion + Classification Loss -> 0.6320 Testing MAE](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_softmax.ipynb)
+			* [\<Notebook> Fusion + Softmax -> 0.633 Testing MAE](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_softmax.ipynb)
 
 ---
 
