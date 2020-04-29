@@ -669,7 +669,7 @@
 
 * Task: [Movielens 1M](https://grouplens.org/datasets/movielens/1m/)（English Data）
 	
-        Training Data: 900228, Testing Data: 99981
+        Training Data: 900228, Testing Data: 99981, Users: 6000, Movies: 4000, Rating: 1-5
 
 	* [\<Notebook>: Make Vocabulary](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/data/make_data.ipynb)
 
