@@ -501,6 +501,8 @@
 
 ## Knowledge Graph Inference
 
+<img src="https://pic4.zhimg.com/80/v2-8cd8481856f101af45501078b04456bb_720w.jpg">
+
 ```
 └── finch/tensorflow2/knowledge_graph_completion/wn18
 	│
