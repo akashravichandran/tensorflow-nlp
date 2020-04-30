@@ -455,7 +455,7 @@
 ## Semantic Parsing
 
 ```
-└── finch/tensorflow1/semantic_parsing/tree_slu
+└── finch/tensorflow2/semantic_parsing/tree_slu
 	│
 	├── data
 	│   └── glove.840B.300d.txt     	# pretrained embedding, download and put here
@@ -468,8 +468,8 @@
 	│   └── target.txt                	# list of words in vocabulary for target (of seq2seq)
 	│	
 	└── main
-		└── lstm_transformer.ipynb           # step 2. train and evaluate model
-		└── lstm_seq2seq_multi_attn.ipynb    # step 2. train and evaluate model
+		└── lstm_seq2seq_tf_addons.ipynb           # step 2. train and evaluate model
+		└── ......
 		
 ```
 
