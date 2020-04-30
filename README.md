@@ -491,19 +491,9 @@
 			
 			  72.4% Exact Match Accuracy on Testing Data
 
-		* TensorFlow 1
+			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow2/semantic_parsing/tree_slu/main/lstm_seq2seq_tf_addons_clr.ipynb) LSTM + Attention + Beam Search + Cyclical LR ->
 			
-			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/semantic_parsing/tree_slu/main/lstm_seq2seq_multi_attn.ipynb) ELMO + LSTM + Attention + Beam Search + Label Smoothing ->
-			
-			  74.8% Exact Match Accuracy on Testing Data
-			  
-	* Model: [Transformer](https://arxiv.org/abs/1706.03762)
-	
-		* TensorFlow 1 + [Texar](https://github.com/asyml/texar) 
-			
-			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/semantic_parsing/tree_slu/main/lstm_transformer.ipynb) ELMO + Transformer + Beam Search + Label Smoothing ->
-			
-			  73.3% Exact Match Accuracy on Testing Data
+			  74.1% Exact Match Accuracy on Testing Data
 
 ---
 
