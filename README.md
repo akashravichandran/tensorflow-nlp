@@ -140,9 +140,9 @@
 			
 			* [\<Notebook> CNN + Feedforward Attention -> 90.7 % Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/attention_conv.ipynb)
 
-			* [\<Notebook> CNN + Feedforward Attention + Back-Translation + Char Embedding + Label Smoothing
+			* [\<Notebook> CNN + Feedforward Attention + Back-Translation + Char Embedding + Label Smoothing](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/cnn_attention_bt_char_label_smooth_cyclical.ipynb)
 			
-				-> 91.7 % Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/cnn_attention_bt_char_label_smooth_cyclical.ipynb)
+				-> 91.7 % Testing Accuracy
 
 	* Model: [Sliced RNN](https://arxiv.org/abs/1807.02291)
 
