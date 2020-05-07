@@ -16,31 +16,25 @@
 
 	* [Topic Modelling（主题模型）](https://github.com/zhedongzheng/finch#topic-modelling)
 
-	* Chatbot（对话机器人）
+	* [Spoken Language Understanding（对话理解）](https://github.com/zhedongzheng/finch#spoken-language-understanding)
 
-		* Single-turn (单轮对话)
+		* ATIS（English Data）
 
-			* [Spoken Language Understanding（对话理解）](https://github.com/zhedongzheng/finch#spoken-language-understanding)
+	* [Generative Dialog（生成式对话）](https://github.com/zhedongzheng/finch#generative-dialog)
 
-				* ATIS（English Data）
-
-			* [Generative Dialog（生成式对话）](https://github.com/zhedongzheng/finch#generative-dialog)
-
-				* 青云语料（Chinese Data）
+		* 青云语料（Chinese Data）
 				
-					* Python Inference（基于 Python 的推理）
+			* Python Inference（基于 Python 的推理）
 					
-					* Java Inference（基于 Java 的推理）
-
-		* Multi-turn (多轮对话)
+			* Java Inference（基于 Java 的推理）
 		
-			* [Multi-turn Dialogue Rewriting（多轮对话改写）](https://github.com/zhedongzheng/finch#multi-turn-dialogue-rewriting)
+	* [Multi-turn Dialogue Rewriting（多轮对话改写）](https://github.com/zhedongzheng/finch#multi-turn-dialogue-rewriting)
 
-				* 微信 AI 研发数据（Chinese Data）
+		* 微信 AI 研发数据（Chinese Data）
 				
-					* Python Inference（基于 Python 的推理）
+			* Python Inference（基于 Python 的推理）
 
-					* Java Inference（基于 Java 的推理）
+			* Java Inference（基于 Java 的推理）
 
 	* [Semantic Parsing（语义解析）](https://github.com/zhedongzheng/finch#semantic-parsing)
 	
