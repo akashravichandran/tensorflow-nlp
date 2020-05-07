@@ -158,7 +158,7 @@
 			
 				-> 92.5 % Testing Accuracy
 
-			* [\<Notebook> Sliced LSTM + Back-Translation + Char Embedding + Label Smoothing + Cyclical LR](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/sliced_rnn_bt_char_label_smooth_clr.ipynb)
+			* [\<Notebook> Sliced LSTM + Back-Translation + Char Embedding + Label Smoothing + Cyclical LR](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow2/text_classification/imdb/main/sliced_rnn_bt_char_label_smooth_clr.ipynb)
 			
 				-> 92.6 % Testing Accuracy
 
