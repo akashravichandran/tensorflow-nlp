@@ -51,13 +51,12 @@
 		* Word Segmentation
 
 * Knowledge Graph（知识图谱）
-	
-	* [Knowledge Graph Tools（知识图谱工具）](https://github.com/zhedongzheng/finch#knowledge-graph-tools)
-	
+
 	* [Knowledge Graph Inference（知识图谱推理）](https://github.com/zhedongzheng/finch#knowledge-graph-inference)
 	
-		* WN18
-	* [Knowledge Base Question Answering（知识图谱问答）](https://github.com/zhedongzheng/finch#knowledge-base-question_answering)
+	* [Knowledge Base Question Answering（知识图谱问答）](https://github.com/zhedongzheng/finch#knowledge-base-question-answering)
+	
+	* [Knowledge Graph Tools（知识图谱工具）](https://github.com/zhedongzheng/finch#knowledge-graph-tools)
 
 * [Recommender System（推荐系统）](https://github.com/zhedongzheng/finch#recommender-system)
 
