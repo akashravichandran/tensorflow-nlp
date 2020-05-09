@@ -755,5 +755,7 @@
 ## Knowledge Base Question Answering
 
 * Rule-based System（基于规则的系统）
-
-	* [\<Notebook> Example](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/python/kbqa/rule_based_qa.ipynb)
+	
+	* [refo](https://github.com/machinalis/refo) + [jieba](https://github.com/fxsjy/jieba)
+	
+		* [\<Notebook> Example](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/python/kbqa/rule_based_qa.ipynb)
