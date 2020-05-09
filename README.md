@@ -57,6 +57,7 @@
 	* [Knowledge Graph Inference（知识图谱推理）](https://github.com/zhedongzheng/finch#knowledge-graph-inference)
 	
 		* WN18
+	* [Knowledge Base Question Answering（知识图谱问答）](https://github.com/zhedongzheng/finch#knowledge-base-question_answering)
 
 * [Recommender System（推荐系统）](https://github.com/zhedongzheng/finch#recommender-system)
 
@@ -751,3 +752,9 @@
 ```
 
 * [\<Notebook> Java Inference](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/java/MultiDialogInference/src/ModelInference.java)
+
+## Knowledge Base Question Answering
+
+* Rule-based System（基于规则的系统）
+
+	* [\<Notebook> Example](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/python/kbqa/rule_based_qa.ipynb)
