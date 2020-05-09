@@ -754,6 +754,8 @@
 
 ## Knowledge Base Question Answering
 
+<img src="https://upload-images.jianshu.io/upload_images/17747892-e994edc3518b2d58.png?imageMogr2/auto-orient/strip|imageView2/2/w/880" height="350">
+
 * Rule-based System（基于规则的系统）
 	
 	* [refo](https://github.com/machinalis/refo) + [jieba](https://github.com/fxsjy/jieba)
