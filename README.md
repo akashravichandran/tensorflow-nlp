@@ -727,9 +727,9 @@
 	
 		* TensorFlow 1
 		
-			* [\<Notebook> LSTM Seq2Seq + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_train.ipynb)
+			* [\<Notebook> LSTM Seq2Seq + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_train_clr.ipynb)
 			
-			 	-> BLEU-1: 94.6, &nbsp; BLEU-2: 88.8, &nbsp; BELU-4: 77.8, &nbsp; EM: 56.2%
+			 	-> BLEU-1: 94.6, &nbsp; BLEU-2: 89.1, &nbsp; BELU-4: 78.5, &nbsp; EM: 56.2%
 
 				This result (without BERT) is comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
 
