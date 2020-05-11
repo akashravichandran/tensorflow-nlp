@@ -727,7 +727,7 @@
 	
 		* TensorFlow 1
 		
-			* [\<Notebook> LSTM Seq2Seq + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_train_clr.ipynb)
+			* [\<Notebook> LSTM Seq2Seq + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_train_clr.ipynb)
 			
 			 	-> BLEU-1: 94.6, &nbsp; BLEU-2: 89.1, &nbsp; BELU-4: 78.5, &nbsp; EM: 56.2%
 
