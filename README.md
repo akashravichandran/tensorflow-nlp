@@ -162,7 +162,7 @@
 
 ## Text Matching
 
-<img src="https://github.com/coetaur0/ESIM/blob/master/esim.png" height="600">
+<img src="https://github.com/coetaur0/ESIM/blob/master/esim.png" height="400">
 
 ```
 └── finch/tensorflow2/text_matching/snli
