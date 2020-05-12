@@ -205,7 +205,7 @@
 
 		* Model: [Match Pyramid](https://arxiv.org/abs/1602.06359)
 			
-			* [\<Notebook> Match Pyramid -> 87.1% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/main/pyramid_multi_attn.ipynb)
+			* [\<Notebook> Pyramid -> 87.1% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/main/pyramid_multi_attn.ipynb)
 
 	 		 	The accuracy of this model is 0.3% below ESIM, however the speed is 1x faster than ESIM
 
@@ -258,7 +258,7 @@
 	
 			* [\<Notebook> ESIM -> 82.5% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/esim.ipynb)
 
-			* [\<Notebook> Match Pyramid -> 82.7% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/pyramid.ipynb)
+			* [\<Notebook> Pyramid -> 82.7% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/pyramid.ipynb)
 
 			* [\<Notebook> RE2 -> 82.9% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/chinese/main/re2.ipynb)
 
