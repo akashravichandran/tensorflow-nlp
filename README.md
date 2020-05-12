@@ -347,7 +347,7 @@
 
 			* [\<Notebook> ELMO + Bi-GRU](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/spoken_language_understanding/atis/main/elmo_o1_bigru.ipynb) 
 			
-			  97.5% Intent Micro-F1, 96.1% Slot Micro-F1 on Testing Data
+			  97.5% Intent Acc, 96.1% Slot Micro-F1 on Testing Data
 
 ---
 
