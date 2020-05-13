@@ -221,7 +221,7 @@
 
 			* [\<Notebook> RE3 + Cyclical LR + Label Smoothing -> 88.3% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/main/re2_3_birnn_label_smooth.ipynb)
 
-<img src="https://pic2.zhimg.com/80/v2-3ae885000f570573020afa0c4ce65a19_720w.jpg">
+<img src="https://pic2.zhimg.com/80/v2-3ae885000f570573020afa0c4ce65a19_720w.jpg" height="300">
 
 ```
 └── finch/tensorflow2/text_matching/chinese
