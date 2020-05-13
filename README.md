@@ -162,8 +162,6 @@
 
 ## Text Matching
 
-<img src="https://github.com/coetaur0/ESIM/blob/master/esim.png" height="400">
-
 ```
 └── finch/tensorflow2/text_matching/snli
 	│
@@ -221,7 +219,9 @@
 
 			* [\<Notebook> RE3 -> 88.0% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/main/re2_3_birnn.ipynb)
 
-			* [\<Notebook> RE3 + Label Smoothing -> 88.2% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/main/re2_3_birnn_label_smooth.ipynb)
+			* [\<Notebook> RE3 + Cyclical LR + Label Smoothing -> 88.3% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_matching/snli/main/re2_3_birnn_label_smooth.ipynb)
+
+<img src="https://github.com/coetaur0/ESIM/blob/master/esim.png" height="400">
 
 ```
 └── finch/tensorflow2/text_matching/chinese
