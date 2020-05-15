@@ -146,7 +146,9 @@
 
 			* [\<Notebook> Sliced LSTM + Back-Translation -> 91.7 % Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/sliced_rnn_bt.ipynb)
 
-				Back-Translation is done by "english -> french -> english" using google translate API
+				Back-Translation increases training data from 25000 to 50000
+
+				which is done by "english -> french -> english" translation
 
 				```python
 				from googletrans import Translator
