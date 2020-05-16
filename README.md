@@ -493,8 +493,6 @@
 
 ## Knowledge Graph Inference
 
-<img src="https://pic4.zhimg.com/80/v2-8cd8481856f101af45501078b04456bb_720w.jpg">
-
 ```
 └── finch/tensorflow2/knowledge_graph_completion/wn18
 	│
@@ -528,7 +526,7 @@
 	
 	* We use [1-N Fast Evaluation](https://arxiv.org/abs/1707.01476) to largely accelerate evaluation process
 
-		 > MRR: Mean Reciprocal Rank
+		 <img src="https://pic4.zhimg.com/80/v2-8cd8481856f101af45501078b04456bb_720w.jpg">
 
 	* Model: [DistMult](https://arxiv.org/abs/1412.6575)
 
