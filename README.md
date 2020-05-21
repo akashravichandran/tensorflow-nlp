@@ -480,10 +480,10 @@
 	* Model: [RNN Seq2Seq + Attention](https://arxiv.org/abs/1409.0473)
 
 		* TensorFlow 2
+
+			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow2/semantic_parsing/tree_slu/main/gru_seq2seq_tf_addons_clr.ipynb) GRU + Attention + Beam Search + Cyclical LR + Label Smoothing ->
 			
-			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow2/semantic_parsing/tree_slu/main/lstm_seq2seq_tf_addons.ipynb) LSTM + Attention + Beam Search ->
-			
-			  72.4% Exact Match Accuracy on Testing Data
+			  74.1% Exact Match Accuracy on Testing Data
 
 			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow2/semantic_parsing/tree_slu/main/lstm_seq2seq_tf_addons_clr.ipynb) LSTM + Attention + Beam Search + Cyclical LR + Label Smoothing ->
 			
