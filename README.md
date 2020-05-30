@@ -711,11 +711,17 @@
 		
 			 > MAE: Mean Absolute Error
 
-			* [\<Notebook> Fusion + Sigmoid -> 0.663 Testing MAE](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_sigmoid.ipynb)
+			* [\<Notebook> Fusion + Sigmoid ->](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_sigmoid.ipynb)
 
-			* [\<Notebook> Fusion + Softmax -> 0.633 Testing MAE](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_softmax.ipynb)
-			
-			* [\<Notebook> Fusion + Softmax + Cyclical LR -> 0.628 Testing MAE](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_softmax_clr.ipynb)
+ 				0.663 Testing MAE
+
+			* [\<Notebook> Fusion + Softmax ->](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_softmax.ipynb)
+
+ 				0.633 Testing MAE
+
+			* [\<Notebook> Fusion + Softmax + Cyclical LR ->](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_softmax_clr.ipynb)
+
+ 				0.628 Testing MAE
 
 				The MAE results seem better than the [all the results here](http://mymedialite.net/examples/datasets.html) and [all the results here](https://test.pypi.org/project/scikit-surprise/)
 
