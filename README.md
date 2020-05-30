@@ -104,7 +104,9 @@
 	
 		* PySpark
 		
-			* [\<Notebook> Unigram + TF + IDF + Logistic Regression -> 88.2% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/spark/text_classification/imdb/tfidf_lr.ipynb)
+			* [\<Notebook> Unigram + TF + IDF + Logistic Regression](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/spark/text_classification/imdb/tfidf_lr.ipynb)
+			
+			 	-> 88.2% Testing Accuracy
 			
 		* Sklearn
 		
@@ -124,23 +126,35 @@
 	
 		* [Facebook Official Release](https://github.com/facebookresearch/fastText)
 		
-			* [\<Notebook> Unigram FastText -> 87.3% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/framework/official_fasttext/text_classification/imdb/unigram.ipynb)
+			* [\<Notebook> Unigram FastText](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/framework/official_fasttext/text_classification/imdb/unigram.ipynb)
 		
-			* [\<Notebook> (Unigram + Bigram) FastText -> 89.8% Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/framework/official_fasttext/text_classification/imdb/bigram.ipynb)
+		 		-> 87.3% Testing Accuracy
+		
+			* [\<Notebook> (Unigram + Bigram) FastText](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/framework/official_fasttext/text_classification/imdb/bigram.ipynb)
+
+				-> 89.8% Testing Accuracy
 
 		* TensorFlow 2
 
-			* [\<Notebook> Unigram FastText -> 89.1 % Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/fasttext_unigram.ipynb)
+			* [\<Notebook> Unigram FastText](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/fasttext_unigram.ipynb)
 				
-			* [\<Notebook> (Unigram + Bigram) FastText -> 90.2 % Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/fasttext_bigram.ipynb)
+			 	-> 89.1 % Testing Accuracy
+				
+			* [\<Notebook> (Unigram + Bigram) FastText](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/fasttext_bigram.ipynb)
+	
+	 			-> 90.2 % Testing Accuracy
 	
 	* Model: [Feedforward Attention](https://arxiv.org/abs/1512.08756)
 
 		* TensorFlow 2
 
-			* [\<Notebook> Feedforward Attention -> 89.5 % Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/attention_linear.ipynb)
+			* [\<Notebook> Feedforward Attention](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/attention_linear.ipynb)
 			
-			* [\<Notebook> CNN + Feedforward Attention -> 90.7 % Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/attention_conv.ipynb)
+			 	-> 89.5 % Testing Accuracy
+			
+			* [\<Notebook> CNN + Feedforward Attention](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/attention_conv.ipynb)
+
+				-> 90.7 % Testing Accuracy
 
 			* [\<Notebook> CNN + Feedforward Attention + Back-Translation + Char Embedding + Label Smoothing](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/cnn_attention_bt_char_label_smooth_cyclical.ipynb)
 			
@@ -150,7 +164,9 @@
 
 		* TensorFlow 2
 
-			* [\<Notebook> Sliced LSTM -> 91.4 % Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/sliced_rnn.ipynb)
+			* [\<Notebook> Sliced LSTM](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/sliced_rnn.ipynb)
+
+ 				-> 91.4 % Testing Accuracy
 
 			* [\<Notebook> Sliced LSTM + Back-Translation -> 91.7 % Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/sliced_rnn_bt.ipynb)
 
@@ -168,7 +184,9 @@
       			back = translator.translate(translated, src='fr', dest='en').text
 				```
 
-			* [\<Notebook> Sliced LSTM + Back-Translation + Char Embedding -> 92.3 % Testing Accuracy](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/sliced_rnn_bt_char.ipynb)
+			* [\<Notebook> Sliced LSTM + Back-Translation + Char Embedding](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/sliced_rnn_bt_char.ipynb)
+
+ 				-> 92.3 % Testing Accuracy
 
 			* [\<Notebook> Sliced LSTM + Back-Translation + Char Embedding + Label Smoothing](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/text_classification/imdb/main/sliced_rnn_bt_char_label_smooth.ipynb)
 			
