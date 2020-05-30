@@ -667,9 +667,7 @@
 
 	* Chinese
 	
-		* Custom TensorFlow Op added by [applenob](https://github.com/applenob/tf_jieba)
-	
-			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/custom_op/tf_jieba.ipynb)
+		* Custom TensorFlow Op added by [applenob](https://github.com/applenob/tf_jieba) [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/custom_op/tf_jieba.ipynb)
 
 ---
 
