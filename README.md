@@ -114,6 +114,10 @@
 			
 			 	-> 88.8% Testing Accuracy
 
+			* [\<Notebook> Unigram + Bigram + TF (binary) + IDF + Logistic Regression](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/sklearn/text_classification/imdb/tfidf_lr_binary_true_bigram.ipynb)
+			
+			 	-> 89.6% Testing Accuracy
+
 	* Model: [FastText](https://arxiv.org/abs/1607.01759)
 	
 		* [Facebook Official Release](https://github.com/facebookresearch/fastText)
