@@ -713,6 +713,10 @@
 
  				0.663 Testing MAE
 
+			* [\<Notebook> Fusion + Sigmoid + Cyclical LR ->](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_sigmoid_clr.ipynb)
+
+ 				0.661 Testing MAE
+
 			* [\<Notebook> Fusion + Softmax ->](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/recommender/movielens/main/dnn_softmax.ipynb)
 
  				0.633 Testing MAE
