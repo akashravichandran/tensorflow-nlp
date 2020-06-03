@@ -417,6 +417,10 @@
 			
 			  97.5% Intent Acc, 96.1% Slot Micro-F1 on Testing Data
 
+			* [\<Notebook> ELMO + Bi-GRU + CRF](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/spoken_language_understanding/atis/main/elmo_o1_bigru_crf.ipynb) 
+			
+			  97.3% Intent Acc, 96.3% Slot Micro-F1 on Testing Data
+
 ---
 
 ## Generative Dialog
