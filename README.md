@@ -14,8 +14,6 @@
 	
 		* 微众银行智能客服（Chinese Data）
 
-	* [Topic Modelling（主题模型）](https://github.com/zhedongzheng/finch#topic-modelling)
-
 	* [Spoken Language Understanding（对话理解）](https://github.com/zhedongzheng/finch#spoken-language-understanding)
 
 		* ATIS（English Data）
@@ -45,10 +43,6 @@
 		* bAbI（Engish Data）
 		
 	* [Text Processing Tools（文本处理工具）](https://github.com/zhedongzheng/finch#text-processing-tools)
-	
-		* Word Extraction
-	
-		* Word Segmentation
 
 * Knowledge Graph（知识图谱）
 
@@ -341,24 +335,6 @@
 			 	-> 84.75% Testing Accuracy
 			
 				Weights downloaded from [here](https://github.com/ymcui/Chinese-BERT-wwm)
-
----
-
-## Topic Modelling
-
-* Data: [2373 Lines of Book Titles](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/spark/topic_modelling/book_titles/all_book_titles.txt)（English Data）
-
-	* Model: TF-IDF + LDA
-	
-		* PySpark
-		
-			* [\<Notebook> TF + IDF + LDA](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/spark/topic_modelling/book_titles/lda.ipynb)
-
-		* Sklearn + pyLDAvis
-		
-			* [\<Notebook> TF + IDF + LDA](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/sklearn/topic_modelling/book_titles/lda.ipynb)
-			
-			* [\<Notebook> Visualization](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/sklearn/topic_modelling/book_titles/lda.html#topic=1&lambda=1&term=)
 
 ---
 
@@ -665,7 +641,7 @@
 
 ## Text Processing Tools
 
-* Word Extraction
+* Word Matching
 
 	* Chinese
 
@@ -676,6 +652,22 @@
 	* Chinese
 	
 		* Custom TensorFlow Op [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/custom_op/tf_jieba.ipynb)
+
+* Topic Modelling
+
+	* Data: [2373 Lines of Book Titles](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/spark/topic_modelling/book_titles/all_book_titles.txt)（English Data）
+
+		* Model: TF-IDF + LDA
+		
+			* PySpark
+			
+				* [\<Notebook> TF + IDF + LDA](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/spark/topic_modelling/book_titles/lda.ipynb)
+
+			* Sklearn + pyLDAvis
+			
+				* [\<Notebook> TF + IDF + LDA](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/sklearn/topic_modelling/book_titles/lda.ipynb)
+				
+				* [\<Notebook> Visualization](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/sklearn/topic_modelling/book_titles/lda.html#topic=1&lambda=1&term=)
 
 ---
 
