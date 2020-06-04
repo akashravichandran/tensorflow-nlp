@@ -645,13 +645,13 @@
 
 	* Chinese
 
-		* [\<Notebook>: Regex Rule](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/python/regex/zhcn_extract.ipynb)
+		* [\<Notebook>: Chinese Regex Rule Example](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/python/regex/zhcn_extract.ipynb)
 
 * Word Segmentation
 
 	* Chinese
 	
-		* Custom TensorFlow Op [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/custom_op/tf_jieba.ipynb)
+		* Jieba TensorFlow Op [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/custom_op/tf_jieba.ipynb)
 
 * Topic Modelling
 
