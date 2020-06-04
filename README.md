@@ -777,7 +777,11 @@
 			
 			 	-> BLEU-1: 94.5, &nbsp; BLEU-2: 88.9, &nbsp; BELU-4: 78.3, &nbsp; EM: 56.6%
 
-				This result (without BERT) is comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
+			* [\<Notebook> GRU Seq2Seq + Multi-Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_multi_attn.ipynb)
+			
+			 	-> BLEU-1: 95.0, &nbsp; BLEU-2: 89.5, &nbsp; BELU-4: 78.9, &nbsp; EM: 56.2%
+
+				The results (without BERT) are comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
 
 			* [\<Notebook> Export](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_export.ipynb)
 			
