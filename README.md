@@ -385,11 +385,7 @@
 			
 			  97.6% Intent Acc, 95.7% Slot Micro-F1 on Testing Data
 
-			* [\<Notebook> Bi-GRU + Self-Attention + CRF](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/spoken_language_understanding/atis/main/bigru_self_attn_clr_crf.ipynb) 
-			
-			  96.9% Intent Acc, 95.7% Slot Micro-F1 on Testing Data
-
-			  Adding CRF does not seem to improve the testing results
+			  Adding Self-Attention after Bi-RNN improves the testing results
 
 	* Model: [ELMO Embedding](https://arxiv.org/abs/1802.05365)
 	
