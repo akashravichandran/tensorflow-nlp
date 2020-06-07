@@ -760,8 +760,8 @@
 ```
 
 * Task: 20k Tencent AI Multi-turn Dialogue Rewriting Data（Chinese Data）
-
-        Training Data (Positive): 18986, Testing Data (Positive): 1008
+	
+        I split as: training data (positive): 18986, testing data (positive): 1008
 	
 	* [\<Text File>: Data](https://github.com/chin-gyou/dialogue-utterance-rewriter/blob/master/corpus.txt)
 	
@@ -769,9 +769,9 @@
 
 	* Model: [RNN Seq2Seq + Attention](https://arxiv.org/abs/1409.0473) + [Dynamic Memory](https://arxiv.org/abs/1603.01417)
 
-		* Training with positive data + negative data
+		* Training with (positive + negative) data
 		
-				Training Data = 2 * 18986 because of 1:1 Negative Sampling 
+				Training data = 2 * 18986 because of 1:1 Negative Sampling
 
 			* TensorFlow 1
 		
