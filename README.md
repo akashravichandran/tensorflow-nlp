@@ -759,7 +759,7 @@
 		└── baseline_lstm_predict.ipynb
 ```
 
-* Task: 20k Tencent AI Multi-turn Dialogue Rewriting Data（Chinese Data）
+* Task: 20k Tencent AI Dataset（Chinese Data）
 	
         I split as: training data (positive): 18986, testing data (positive): 1008
 	
