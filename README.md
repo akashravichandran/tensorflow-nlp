@@ -772,6 +772,10 @@
 		* Training with (positive + negative) data
 		
 				Training data = 2 * 18986 because of 1:1 Negative Sampling
+				
+				Positive data is the query that has to be rewritten
+				
+				Negative data is the query that does not need to be rewritten
 
 			* TensorFlow 1
 		
