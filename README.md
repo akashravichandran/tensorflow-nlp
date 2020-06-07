@@ -761,7 +761,7 @@
 
 * Task: 20k Tencent AI Dataset（Chinese Data）
 	
-        I split as: training data (positive): 18986, testing data (positive): 1008
+        data split as: training data (positive): 18986, testing data (positive): 1008
 	
 	* [\<Text File>: Data](https://github.com/chin-gyou/dialogue-utterance-rewriter/blob/master/corpus.txt)
 	
@@ -772,10 +772,6 @@
 		* Training with (positive + negative) data
 		
 				Training data = 2 * 18986 because of 1:1 Negative Sampling
-				
-				Positive data is the query that has to be rewritten
-				
-				Negative data is the query that does not need to be rewritten
 
 			* TensorFlow 1
 		
