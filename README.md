@@ -28,7 +28,7 @@
 		
 	* [Multi-turn Dialogue Rewriting（多轮对话改写）](https://github.com/zhedongzheng/finch#multi-turn-dialogue-rewriting)
 
-		* 微信 AI 研发数据（Chinese Data）
+		* 20k 腾讯 AI 研发数据（Chinese Data）
 				
 			* Python Inference（基于 Python 的推理）
 
@@ -759,33 +759,35 @@
 		└── baseline_lstm_predict.ipynb
 ```
 
-* Task: Multi-turn Dialogue Rewriting（Chinese Data）
+* Task: 20k Tencent AI Multi-turn Dialogue Rewriting Data（Chinese Data）
 
         Training Data (Positive): 18986, Testing Data (Positive): 1008
 	
-        Training Data = 2 * 18986 because of 1:1 Negative Sampling 
-
 	* [\<Text File>: Data](https://github.com/chin-gyou/dialogue-utterance-rewriter/blob/master/corpus.txt)
 	
 	* [\<Notebook>: Make Data & Vocabulary & Pretrained Embedding](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/make_data.ipynb)
-	
+
 	* Model: [RNN Seq2Seq + Attention](https://arxiv.org/abs/1409.0473) + [Dynamic Memory](https://arxiv.org/abs/1603.01417)
-	
-		* TensorFlow 1
+
+		* Training with positive data + negative data
 		
-			* [\<Notebook> LSTM Seq2Seq + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_train_clr.ipynb)
-			
-			 	-> BLEU-1: 94.6, &nbsp; BLEU-2: 89.1, &nbsp; BELU-4: 78.5, &nbsp; EM: 56.2%
+				Training Data = 2 * 18986 because of 1:1 Negative Sampling 
 
-			* [\<Notebook> GRU Seq2Seq + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr.ipynb)
-			
-			 	-> BLEU-1: 94.5, &nbsp; BLEU-2: 88.9, &nbsp; BELU-4: 78.3, &nbsp; EM: 56.6%
+			* TensorFlow 1
+		
+				* [\<Notebook> LSTM Seq2Seq + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_train_clr.ipynb)
 
-			* [\<Notebook> GRU Seq2Seq + Multi-Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_multi_attn.ipynb)
-			
-			 	-> BLEU-1: 95.0, &nbsp; BLEU-2: 89.5, &nbsp; BELU-4: 78.9, &nbsp; EM: 56.2%
+					-> BLEU-1: 94.6, &nbsp; BLEU-2: 89.1, &nbsp; BELU-4: 78.5, &nbsp; EM: 56.2%
 
-				The results (without BERT) are comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
+				* [\<Notebook> GRU Seq2Seq + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr.ipynb)
+
+					-> BLEU-1: 94.5, &nbsp; BLEU-2: 88.9, &nbsp; BELU-4: 78.3, &nbsp; EM: 56.6%
+
+				* [\<Notebook> GRU Seq2Seq + Multi-Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_multi_attn.ipynb)
+
+					-> BLEU-1: 95.0, &nbsp; BLEU-2: 89.5, &nbsp; BELU-4: 78.9, &nbsp; EM: 56.2%
+
+					The results (without BERT) are comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
 
 			* [\<Notebook> Export](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_export.ipynb)
 			
