@@ -773,13 +773,13 @@
 
 	* Model: [RNN Seq2Seq + Attention](https://arxiv.org/abs/1409.0473) + [Dynamic Memory](https://arxiv.org/abs/1603.01417)
 
-		* Training with (positive + negative) data
-		
-			* [\<Text File>: Negative Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/train_neg.txt)
-		
-				Training data = 2 * 18986 because of 1:1 Negative Sampling
+		* TensorFlow 1
 
-			* TensorFlow 1
+			* Training with (positive + negative) data
+			
+				* [\<Text File>: Negative Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/train_neg.txt)
+			
+					Training data = 2 * 18986 because of 1:1 Negative Sampling
 		
 				* [\<Notebook> LSTM Seq2Seq + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_train_clr.ipynb)
 
@@ -792,6 +792,12 @@
 				* [\<Notebook> GRU Seq2Seq + Multi-Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_multi_attn.ipynb)
 
 					-> BLEU-1: 95.0, &nbsp; BLEU-2: 89.5, &nbsp; BELU-4: 78.9, &nbsp; EM: 56.2%
+
+			* Training with only positive data
+
+				* [\<Notebook> GRU Seq2Seq + Multi-Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_multi_attn_only_pos.ipynb)
+
+					-> BLEU-1: 94.0, &nbsp; BLEU-2: 88.0, &nbsp; BELU-4: 76.5, &nbsp; EM: 58.2%
 
 					The results (without BERT) are comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
 
