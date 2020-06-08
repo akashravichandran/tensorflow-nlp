@@ -771,11 +771,11 @@
 
 		* [\<Text File>: Positive Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/train_pos.txt)
 
-		* [\<Text File>: Negative Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/train_neg.txt)
-
 	* Model: [RNN Seq2Seq + Attention](https://arxiv.org/abs/1409.0473) + [Dynamic Memory](https://arxiv.org/abs/1603.01417)
 
 		* Training with (positive + negative) data
+		
+			* [\<Text File>: Negative Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/train_neg.txt)
 		
 				Training data = 2 * 18986 because of 1:1 Negative Sampling
 
