@@ -1,4 +1,4 @@
-		Code has been run on Google Colab, Thanks Google for providing computational resources
+		Code has been run on Google Colab, thanks Google for providing computational resources
 
 #### Contents
 
