@@ -759,7 +759,7 @@
 		└── baseline_lstm_predict.ipynb
 ```
 
-* Task: 20k Tencent AI Dataset（Chinese Data）
+* Task: 20k 腾讯 AI 研发数据（Chinese Data）
 	
         data split as: training data (positive): 18986, testing data (positive): 1008
 	
