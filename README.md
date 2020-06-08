@@ -795,6 +795,10 @@
 
 			* Training with only positive data
 
+				* [\<Notebook> GRU Seq2Seq + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_only_pos.ipynb)
+
+					-> BLEU-1: 94.4, &nbsp; BLEU-2: 88.6, &nbsp; BELU-4: 77.5, &nbsp; EM: 57.6%
+
 				* [\<Notebook> GRU Seq2Seq + Multi-Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_multi_attn_only_pos.ipynb)
 
 					-> BLEU-1: 94.0, &nbsp; BLEU-2: 88.0, &nbsp; BELU-4: 76.5, &nbsp; EM: 58.2%
