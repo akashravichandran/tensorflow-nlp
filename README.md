@@ -763,9 +763,15 @@
 	
         data split as: training data (positive): 18986, testing data (positive): 1008
 	
-	* [\<Text File>: Data](https://github.com/chin-gyou/dialogue-utterance-rewriter/blob/master/corpus.txt)
+	* [\<Text File>: Full Data](https://github.com/chin-gyou/dialogue-utterance-rewriter/blob/master/corpus.txt)
 	
 	* [\<Notebook>: Make Data & Vocabulary & Pretrained Embedding](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/make_data.ipynb)
+
+			There are six incorrect data and we have deleted them
+
+		* [\<Text File>: Positive Data Example](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/train_pos.txt)
+
+		* [\<Text File>: Negative Data Example](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/train_neg.txt)
 
 	* Model: [RNN Seq2Seq + Attention](https://arxiv.org/abs/1409.0473) + [Dynamic Memory](https://arxiv.org/abs/1603.01417)
 
