@@ -776,11 +776,11 @@
 		* TensorFlow 1
 
 			* Training with (positive + negative) data
-			
+
+					Training data = 2 * 18986 because of 1:1 Negative Sampling
+
 				* [\<Text File>: Negative Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/train_neg.txt)
 			
-					Training data = 2 * 18986 because of 1:1 Negative Sampling
-		
 				* [\<Notebook> LSTM Seq2Seq + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_train_clr.ipynb)
 
 					-> BLEU-1: 94.6, &nbsp; BLEU-2: 89.1, &nbsp; BELU-4: 78.5, &nbsp; EM: 56.2%
