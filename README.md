@@ -799,7 +799,7 @@
 
 					-> BLEU-1: 94.0, &nbsp; BLEU-2: 88.0, &nbsp; BELU-4: 76.5, &nbsp; EM: 58.2%
 
-					The results (without BERT) are comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
+					These results (only RNN, without BERT) are comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
 
 			* [\<Notebook> Export](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_export.ipynb)
 			
