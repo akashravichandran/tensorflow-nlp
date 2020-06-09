@@ -813,9 +813,9 @@
 
 		* TensorFlow 1
 
-			Pointer Net returns probability distribution, therefore beam-search is different from Seq2Seq
+			Pointer Net returns probability distribution, therefore no need to do softmax again in beam search
 
-			Go to [source code](https://github.com/tensorflow/tensorflow/blob/r1.15/tensorflow/contrib/seq2seq/python/ops/beam_search_decoder.py), replace this line
+			Go to beam search [source code](https://github.com/tensorflow/tensorflow/blob/r1.15/tensorflow/contrib/seq2seq/python/ops/beam_search_decoder.py), replace this line
 
 			```python
 			step_log_probs = nn_ops.log_softmax(logits)
