@@ -813,19 +813,19 @@
 
 		* TensorFlow 1
 
-				Pointer Net returns probability distribution, therefore beam-search is different from Seq2Seq
+			Pointer Net returns probability distribution, therefore beam-search is different from Seq2Seq
 
-				Go to [source code](https://github.com/tensorflow/tensorflow/blob/r1.15/tensorflow/contrib/seq2seq/python/ops/beam_search_decoder.py), replace this line
+			Go to [source code](https://github.com/tensorflow/tensorflow/blob/r1.15/tensorflow/contrib/seq2seq/python/ops/beam_search_decoder.py), replace this line
 
-				```python
-				step_log_probs = nn_ops.log_softmax(logits)
-				```
+			```python
+			step_log_probs = nn_ops.log_softmax(logits)
+			```
 
-				with this line
+			with this line
 
-				```python
-				step_log_probs = math_ops.log(logits)
-				```
+			```python
+			step_log_probs = math_ops.log(logits)
+			```
 
 			* Training with only positive data
 
