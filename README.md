@@ -803,8 +803,6 @@
 
 					-> Exact Match: 58.2%, &nbsp; BLEU-1: 94.0, &nbsp; BLEU-2: 88.0, &nbsp; BELU-4: 76.5
 
-					These results (only RNN, without BERT) are comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
-
 			* [\<Notebook> Export](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_export.ipynb)
 			
 			* [\<Notebook> Inference](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_predict.ipynb)
@@ -827,11 +825,19 @@
 			step_log_probs = math_ops.log(logits)
 			```
 
+			* Training with (positive + negative) data
+
+				* [\<Notebook> GRU Pointer Net](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/pointer_gru_train_clr.ipynb)
+
+					-> Exact Match: 59.2%, &nbsp; BLEU-1: 93.2, &nbsp; BLEU-2: 87.7, &nbsp; BELU-4: 77.2
+
 			* Training with only positive data
 
 				* [\<Notebook> GRU Pointer Net](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/pointer_gru_train_clr_only_pos.ipynb)
 
 					-> Exact Match: 59.2%, &nbsp; BLEU-1: 93.9, &nbsp; BLEU-2: 87.7, &nbsp; BELU-4: 76.1
+
+	These results (only RNN, without BERT) are comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
 
 ```
 └── MultiDialogInference
