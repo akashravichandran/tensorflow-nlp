@@ -809,6 +809,30 @@
 			
 			* [\<Notebook> Inference](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_predict.ipynb)
 
+	* Model: [RNN Pointer Networks](https://arxiv.org/abs/1506.03134)
+
+		* TensorFlow 1
+
+				Pointer Net returns probability distribution, therefore beam-search is different from Seq2Seq
+
+				Go to [source code](https://github.com/tensorflow/tensorflow/blob/r1.15/tensorflow/contrib/seq2seq/python/ops/beam_search_decoder.py), replace this line
+
+				```python
+				step_log_probs = nn_ops.log_softmax(logits)
+				```
+
+				with this line
+
+				```python
+				step_log_probs = math_ops.log(logits)
+				```
+
+			* Training with only positive data
+
+				* [\<Notebook> GRU Pointer Net](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/pointer_gru_train_clr_only_pos.ipynb)
+
+					-> Exact Match: 59.2%, &nbsp; BLEU-1: 93.9, &nbsp; BLEU-2: 87.7, &nbsp; BELU-4: 76.1
+
 ```
 └── MultiDialogInference
 	│
