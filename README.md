@@ -803,10 +803,6 @@
 
 					-> Exact Match: 58.2%, &nbsp; BLEU-1: 94.0, &nbsp; BLEU-2: 88.0, &nbsp; BELU-4: 76.5
 
-			* [\<Notebook> Export](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_export.ipynb)
-			
-			* [\<Notebook> Inference](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_predict.ipynb)
-
 	* Model: [RNN Pointer Networks](https://arxiv.org/abs/1506.03134)
 
 		* TensorFlow 1
@@ -837,11 +833,21 @@
 
 					-> Exact Match: 59.2%, &nbsp; BLEU-1: 93.2, &nbsp; BLEU-2: 87.7, &nbsp; BELU-4: 77.2
 
-				* [\<Notebook> GRU Pointer Net + Multi-Attention](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/pointer_gru_train_clr.ipynb)
+				* [\<Notebook> GRU Pointer Net + Multi-Attention](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/pointer_gru_train_clr_multi_attn.ipynb)
 
 					-> Exact Match: 58.7%, &nbsp; BLEU-1: 94.5, &nbsp; BLEU-2: 89.0, &nbsp; BELU-4: 78.8
 
-					This results (only RNN, without BERT) is slightly better than [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
+					This result (only RNN, without BERT) is better than [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
+
+	* Python Inference（基于 Python 的推理）
+
+		* [\<Notebook> Export](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_export.ipynb)
+		
+		* [\<Notebook> Inference](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_predict.ipynb)
+	
+	* Java Inference（基于 Java 的推理）
+
+		* [\<Notebook> Inference](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/java/MultiDialogInference/src/ModelInference.java)
 
 ```
 └── MultiDialogInference
@@ -855,8 +861,6 @@
 	└── src              
 	    └── ModelInference.java
 ```
-
-* [\<Notebook> Java Inference](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/java/MultiDialogInference/src/ModelInference.java)
 
 ## Knowledge Base Question Answering
 
