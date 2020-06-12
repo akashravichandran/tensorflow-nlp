@@ -840,8 +840,9 @@
 					This result (only RNN, without BERT) is comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
 
 	```
-	Pointer Network is better than Seq2Seq on this kind of task
-	when the target text is very close to the source text
+	As can be seen above, Pointer Network is better than Seq2Seq on this kind of task
+
+	where the target text is very close to the source text
 	```
 
 	* Python Inference（基于 Python 的推理）
