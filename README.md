@@ -835,9 +835,9 @@
 
 				* [\<Notebook> GRU Pointer Net + Multi-Attention](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/pointer_gru_train_clr_multi_attn.ipynb)
 
-					-> Exact Match: 58.7%, &nbsp; BLEU-1: 94.5, &nbsp; BLEU-2: 89.0, &nbsp; BELU-4: 78.8
+					-> Exact Match: 59.0%, &nbsp; BLEU-1: 94.3, &nbsp; BLEU-2: 88.5, &nbsp; BELU-4: 77.6
 
-					This result (only RNN, without BERT) is better than [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
+					This result (only RNN, without BERT) is comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
 
 	```
 	Pointer Network is better than Seq2Seq on this kind of task
