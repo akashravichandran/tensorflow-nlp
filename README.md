@@ -781,25 +781,25 @@
 
 				* [\<Text File>: Negative Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/train_neg.txt)
 			
-				* [\<Notebook> LSTM Seq2Seq + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_train_clr.ipynb)
+				* [\<Notebook> LSTM Seq2Seq + Attention + Multi-hop Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_train_clr.ipynb)
 
 					-> Exact Match: 56.2%, &nbsp; BLEU-1: 94.6, &nbsp; BLEU-2: 89.1, &nbsp; BELU-4: 78.5
 
-				* [\<Notebook> GRU Seq2Seq + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr.ipynb)
+				* [\<Notebook> GRU Seq2Seq + Attention + Multi-hop Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr.ipynb)
 
 					-> Exact Match: 56.6%, &nbsp; BLEU-1: 94.5, &nbsp; BLEU-2: 88.9, &nbsp; BELU-4: 78.3
 
-				* [\<Notebook> GRU Seq2Seq + Multi-Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_multi_attn.ipynb)
+				* [\<Notebook> GRU Seq2Seq + Multi-Attention + Multi-hop Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_multi_attn.ipynb)
 
 					-> Exact Match: 56.2%, &nbsp; BLEU-1: 95.0, &nbsp; BLEU-2: 89.5, &nbsp; BELU-4: 78.9
 
 			* Training with only positive data
 
-				* [\<Notebook> GRU Seq2Seq + Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_only_pos.ipynb)
+				* [\<Notebook> GRU Seq2Seq + Attention + Multi-hop Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_only_pos.ipynb)
 
 					-> Exact Match: 57.6%, &nbsp; BLEU-1: 94.4, &nbsp; BLEU-2: 88.6, &nbsp; BELU-4: 77.5
 
-				* [\<Notebook> GRU Seq2Seq + Multi-Attention + Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_multi_attn_only_pos.ipynb)
+				* [\<Notebook> GRU Seq2Seq + Multi-Attention + Multi-hop Memory + Beam Search](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_multi_attn_only_pos.ipynb)
 
 					-> Exact Match: 58.2%, &nbsp; BLEU-1: 94.0, &nbsp; BLEU-2: 88.0, &nbsp; BELU-4: 76.5
 
