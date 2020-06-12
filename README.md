@@ -771,7 +771,7 @@
 
 		* [\<Text File>: Positive Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/train_pos.txt)
 
-	* Model: [RNN Seq2Seq + Attention](https://arxiv.org/abs/1409.0473) + [Dynamic Memory](https://arxiv.org/abs/1603.01417)
+	* Model: [RNN Seq2Seq + Attention](https://arxiv.org/abs/1409.0473) + [Multi-hop Memory](https://arxiv.org/abs/1603.01417)
 
 		* TensorFlow 1
 
@@ -838,6 +838,8 @@
 					-> Exact Match: 58.7%, &nbsp; BLEU-1: 94.5, &nbsp; BLEU-2: 89.0, &nbsp; BELU-4: 78.8
 
 					This result (only RNN, without BERT) is better than [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
+
+		As can be seen from the results above, Pointer Network is better than Seq2Seq on this kind of task where the target text is very close to the source text
 
 	* Python Inference（基于 Python 的推理）
 
