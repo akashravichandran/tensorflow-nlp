@@ -760,9 +760,13 @@
 ```
 
 * Task: 20k 腾讯 AI 研发数据（Chinese Data）
-	
-        data split as: training data (positive): 18986, testing data (positive): 1008
-	
+
+	```
+	data split as: training data (positive): 18986, testing data (positive): 1008
+
+	Training data = 2 * 18986 because of 1:1 Negative Sampling
+	```
+
 	* [\<Text File>: Full Data](https://github.com/chin-gyou/dialogue-utterance-rewriter/blob/master/corpus.txt)
 	
 	* [\<Notebook>: Make Data & Vocabulary & Pretrained Embedding](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/make_data.ipynb)
@@ -770,38 +774,26 @@
 			There are six incorrect data and we have deleted them
 
 		* [\<Text File>: Positive Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/train_pos.txt)
+		
+		* [\<Text File>: Negative Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/train_neg.txt)
 
 	* Model: [RNN Seq2Seq + Attention](https://arxiv.org/abs/1409.0473) + [Multi-hop Memory](https://arxiv.org/abs/1603.01417)
 
 		* TensorFlow 1
 
-			* Training with (positive + negative) data
+				
 
-					Training data = 2 * 18986 because of 1:1 Negative Sampling
+			* [\<Notebook> LSTM Seq2Seq + Multi-hop Memory + Attention](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_train_clr.ipynb)
 
-				* [\<Text File>: Negative Data Example](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/data/train_neg.txt)
-			
-				* [\<Notebook> LSTM Seq2Seq + Multi-hop Memory + Attention](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_train_clr.ipynb)
+				-> Exact Match: 56.2%, &nbsp; BLEU-1: 94.6, &nbsp; BLEU-2: 89.1, &nbsp; BELU-4: 78.5
 
-					-> Exact Match: 56.2%, &nbsp; BLEU-1: 94.6, &nbsp; BLEU-2: 89.1, &nbsp; BELU-4: 78.5
+			* [\<Notebook> GRU Seq2Seq + Multi-hop Memory + Attention](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr.ipynb)
 
-				* [\<Notebook> GRU Seq2Seq + Multi-hop Memory + Attention](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr.ipynb)
+				-> Exact Match: 56.6%, &nbsp; BLEU-1: 94.5, &nbsp; BLEU-2: 88.9, &nbsp; BELU-4: 78.3
 
-					-> Exact Match: 56.6%, &nbsp; BLEU-1: 94.5, &nbsp; BLEU-2: 88.9, &nbsp; BELU-4: 78.3
+			* [\<Notebook> GRU Seq2Seq + Multi-hop Memory + Multi-Attention](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_multi_attn.ipynb)
 
-				* [\<Notebook> GRU Seq2Seq + Multi-hop Memory + Multi-Attention](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_multi_attn.ipynb)
-
-					-> Exact Match: 56.2%, &nbsp; BLEU-1: 95.0, &nbsp; BLEU-2: 89.5, &nbsp; BELU-4: 78.9
-
-			* Training with only positive data
-
-				* [\<Notebook> GRU Seq2Seq + Multi-hop Memory + Attention](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_only_pos.ipynb)
-
-					-> Exact Match: 57.6%, &nbsp; BLEU-1: 94.4, &nbsp; BLEU-2: 88.6, &nbsp; BELU-4: 77.5
-
-				* [\<Notebook> GRU Seq2Seq + Multi-hop Memory + Multi-Attention](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_gru_train_clr_multi_attn_only_pos.ipynb)
-
-					-> Exact Match: 58.2%, &nbsp; BLEU-1: 94.0, &nbsp; BLEU-2: 88.0, &nbsp; BELU-4: 76.5
+				-> Exact Match: 56.2%, &nbsp; BLEU-1: 95.0, &nbsp; BLEU-2: 89.5, &nbsp; BELU-4: 78.9
 
 	* Model: [RNN Pointer Networks](https://arxiv.org/abs/1506.03134)
 
@@ -821,23 +813,15 @@
 			step_log_probs = math_ops.log(logits)
 			```
 
-			* Training with only positive data
+			* [\<Notebook> GRU Pointer Net](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/pointer_gru_train_clr.ipynb)
 
-				* [\<Notebook> GRU Pointer Net](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/pointer_gru_train_clr_only_pos.ipynb)
+				-> Exact Match: 59.2%, &nbsp; BLEU-1: 93.2, &nbsp; BLEU-2: 87.7, &nbsp; BELU-4: 77.2
 
-					-> Exact Match: 59.2%, &nbsp; BLEU-1: 93.9, &nbsp; BLEU-2: 87.7, &nbsp; BELU-4: 76.1
+			* [\<Notebook> GRU Pointer Net + Multi-Attention](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/pointer_gru_train_clr_multi_attn.ipynb)
 
-			* Training with (positive + negative) data
+				-> Exact Match: 59.0%, &nbsp; BLEU-1: 94.3, &nbsp; BLEU-2: 88.5, &nbsp; BELU-4: 77.6
 
-				* [\<Notebook> GRU Pointer Net](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/pointer_gru_train_clr.ipynb)
-
-					-> Exact Match: 59.2%, &nbsp; BLEU-1: 93.2, &nbsp; BLEU-2: 87.7, &nbsp; BELU-4: 77.2
-
-				* [\<Notebook> GRU Pointer Net + Multi-Attention](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/pointer_gru_train_clr_multi_attn.ipynb)
-
-					-> Exact Match: 59.0%, &nbsp; BLEU-1: 94.3, &nbsp; BLEU-2: 88.5, &nbsp; BELU-4: 77.6
-
-					This result (only RNN, without BERT) is comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
+				This result (only RNN, without BERT) is comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
 
 	```
 	As can be seen above, Pointer Network is better than Seq2Seq on this kind of task
