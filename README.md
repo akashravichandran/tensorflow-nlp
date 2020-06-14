@@ -535,7 +535,7 @@
 
 			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow2/semantic_parsing/tree_slu/main/gru_pointer_tf_addons_clr.ipynb) GRU + Pointer-Generator + Beam Search + Cyclical LR + Label Smoothing ->
 			
-			  7% Exact Match on Testing Data
+			  80.3% Exact Match on Testing Data
 
 ---
 
