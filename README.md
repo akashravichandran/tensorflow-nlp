@@ -517,9 +517,9 @@
 	
 		* [\<Text File>: Vocabulary Example](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow2/semantic_parsing/tree_slu/vocab/target.txt)
 
-	* Model: [RNN Seq2Seq + Attention](https://arxiv.org/abs/1409.0473)
+	* TensorFlow 2
 
-		* TensorFlow 2
+		* Model: [RNN Seq2Seq + Attention](https://arxiv.org/abs/1409.0473)
 
 			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow2/semantic_parsing/tree_slu/main/gru_seq2seq_tf_addons_clr.ipynb) GRU + Seq2Seq + Beam Search + Cyclical LR + Label Smoothing ->
 			
@@ -529,9 +529,7 @@
 			
 			  74.1% Exact Match on Testing Data
 
-	* Model: [Pointer-Generator](https://arxiv.org/abs/1704.04368)
-
-		* TensorFlow 2
+		* Model: [Pointer-Generator](https://arxiv.org/abs/1704.04368)
 
 			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow2/semantic_parsing/tree_slu/main/gru_pointer_tf_addons_clr.ipynb) GRU + Pointer-Generator + Beam Search + Cyclical LR + Label Smoothing ->
 			
