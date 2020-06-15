@@ -534,6 +534,12 @@
 			* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow2/semantic_parsing/tree_slu/main/gru_pointer_tf_addons_clr.ipynb) GRU + Pointer-Generator + Cyclical LR + Label Smoothing ->
 			
 			  80.3% Exact Match on Testing Data
+			  
+			  ```
+			  Pointer Generator = Pointer Network + Seq2Seq Network
+			  
+			  which improves testing results to a large extent
+			  ```
 
 ---
 
