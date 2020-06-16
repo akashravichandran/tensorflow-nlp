@@ -328,7 +328,7 @@
 
 			These results are higher than [the results here](https://github.com/terrifyzhao/text_matching) and [the result here](https://github.com/liuhuanyong/SiameseSentenceSimilarity)
 
-		* TensorFlow 1 + [bert4keras](https://github.com/bojone/bert4keras)
+		* [bert4keras](https://github.com/bojone/bert4keras) purposed by [Jianlin Su](https://github.com/bojone)
 		
 			* [\<Notebook> BERT](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/text_matching/chinese/main/bert_chinese_wwm.ipynb)
 			
@@ -667,7 +667,7 @@
 
 	* Chinese
 	
-		* Jieba TensorFlow Op [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/custom_op/tf_jieba.ipynb)
+		* Jieba TensorFlow Op [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/custom_op/tf_jieba.ipynb) purposed by [Junwen Chen](https://github.com/applenob)
 
 * Topic Modelling
 
