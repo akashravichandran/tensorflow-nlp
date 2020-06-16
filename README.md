@@ -667,7 +667,7 @@
 
 	* Chinese
 	
-		* Jieba TensorFlow Op [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/custom_op/tf_jieba.ipynb) purposed by [Junwen Chen](https://github.com/applenob)
+		* [\<Notebook>](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/custom_op/tf_jieba.ipynb) Jieba TensorFlow Op purposed by [Junwen Chen](https://github.com/applenob)
 
 * Topic Modelling
 
