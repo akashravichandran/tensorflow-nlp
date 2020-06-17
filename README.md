@@ -862,6 +862,32 @@
 	    └── ModelInference.java
 ```
 
+If you don't know the input and output node names in Java, you can call:
+
+```
+!saved_model_cli show --dir ../model/xxx/1587959473/ --tag_set serve --signature_def serving_default
+```
+
+which will display the node names:
+
+```
+The given SavedModel SignatureDef contains the following input(s):
+  inputs['history'] tensor_info:
+      dtype: DT_INT32
+      shape: (-1, -1, -1)
+      name: history:0
+  inputs['query'] tensor_info:
+      dtype: DT_INT32
+      shape: (-1, -1)
+      name: query:0
+The given SavedModel SignatureDef contains the following output(s):
+  outputs['output'] tensor_info:
+      dtype: DT_INT32
+      shape: (-1, -1)
+      name: Decoder/decoder/transpose_1:0
+Method name is: tensorflow/serving/predict
+```
+
 ## Knowledge Base Question Answering
 
 <img src="https://upload-images.jianshu.io/upload_images/17747892-e994edc3518b2d58.png?imageMogr2/auto-orient/strip|imageView2/2/w/880" height="350">
