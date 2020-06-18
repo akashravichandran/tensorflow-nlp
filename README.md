@@ -538,7 +538,11 @@
 			  ```
 			  Pointer Generator = Pointer Network + Seq2Seq Network
 			  
-			  which improves testing results to a large extent
+			  This result is quite strong
+			  
+			  which beats all the exact match results in the original paper
+			  
+			  (https://aclweb.org/anthology/D18-1300)
 			  ```
 
 ---
