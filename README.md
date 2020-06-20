@@ -840,7 +840,7 @@
 				```
 				Pointer Network is better than Seq2Seq on this kind of task
 
-				where the target text is very close to the source text
+				where the target text highly overlaps with the source text
 				```
 
 	* Python Inference（基于 Python 的推理）
