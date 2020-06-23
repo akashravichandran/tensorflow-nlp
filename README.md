@@ -867,6 +867,16 @@
 				where the target text highly overlaps with the source text
 				```
 
+	* This problem can also be formulated as a two-stage problem
+
+		* Stage 1. Detecting the missing (or referred) words from the history dialogue (a sequence tagging task)
+
+		* Stage 2. Adding the detected words to the query and reorder them (a sequence generation task)
+
+		* I have conducted an [experiment](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese_tagging/main/tagging_only_pos.ipynb) on the stage 1, and the result is:
+
+			Recall: 79.6% &nbsp; Precision: 78.7%
+
 	* Python Inference（基于 Python 的推理）
 
 		* [\<Notebook> Export](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_export.ipynb)
