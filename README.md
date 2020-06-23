@@ -467,20 +467,22 @@
 			
 			* [\<Notebook> Python Inference](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/free_chat/chinese_qingyun/main/transformer_infer.ipynb)
 
-```
-└── FreeChatInference
-	│
-	├── data
-	│   └── transformer_export/
-	│   └── char.txt
-	│   └── libtensorflow-1.14.0.jar
-	│   └── tensorflow_jni.dll
-	│
-	└── src              
-	    └── ModelInference.java
-```
+	* If you want to deploy model in Java production
 
-* [\<Notebook> Java Inference](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/java/FreeChatInference/src/ModelInference.java)
+		```
+		└── FreeChatInference
+			│
+			├── data
+			│   └── transformer_export/
+			│   └── char.txt
+			│   └── libtensorflow-1.14.0.jar
+			│   └── tensorflow_jni.dll
+			│
+			└── src              
+				└── ModelInference.java
+		```
+
+		* [\<Notebook> Java Inference](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/java/FreeChatInference/src/ModelInference.java)
 
 ---
 
@@ -867,6 +869,57 @@
 				where the target text highly overlaps with the source text
 				```
 
+	* If you want to deploy model
+
+		* Python Inference（基于 Python 的推理）
+
+			* [\<Notebook> Export](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_export.ipynb)
+			
+			* [\<Notebook> Inference](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_predict.ipynb)
+		
+		* Java Inference（基于 Java 的推理）
+
+			* [\<Notebook> Inference](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/java/MultiDialogInference/src/ModelInference.java)
+
+				```
+				└── MultiDialogInference
+					│
+					├── data
+					│   └── baseline_lstm_export/
+					│   └── char.txt
+					│   └── libtensorflow-1.14.0.jar
+					│   └── tensorflow_jni.dll
+					│
+					└── src              
+						└── ModelInference.java
+				```
+
+			* If you don't know the input and output node names in Java, you can call:
+
+				```
+				!saved_model_cli show --dir ../model/xxx/1587959473/ --tag_set serve --signature_def serving_default
+				```
+
+				which will display the node names:
+
+				```
+				The given SavedModel SignatureDef contains the following input(s):
+				inputs['history'] tensor_info:
+					dtype: DT_INT32
+					shape: (-1, -1, -1)
+					name: history:0
+				inputs['query'] tensor_info:
+					dtype: DT_INT32
+					shape: (-1, -1)
+					name: query:0
+				The given SavedModel SignatureDef contains the following output(s):
+				outputs['output'] tensor_info:
+					dtype: DT_INT32
+					shape: (-1, -1)
+					name: Decoder/decoder/transpose_1:0
+				Method name is: tensorflow/serving/predict
+				```
+
 	* Despite End-to-End, this problem can also be formulated as a two-stage problem
 
 		* Stage 1. Detecting the (missing or referred) keywords from the context (a sequence tagging task)
@@ -882,52 +935,3 @@
 		* I have conducted an [experiment](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese_tagging/main/tagging_only_pos.ipynb) on the stage 1 (sequence tagging), and the result is:
 
 			Recall: 79.6% &nbsp; Precision: 78.7% &nbsp; for retrieving the keywords
-
-	* Python Inference（基于 Python 的推理）
-
-		* [\<Notebook> Export](https://nbviewer.jupyter.org/github/zhedongzheng/finch/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_export.ipynb)
-		
-		* [\<Notebook> Inference](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/baseline_lstm_predict.ipynb)
-	
-	* Java Inference（基于 Java 的推理）
-
-		* [\<Notebook> Inference](https://github.com/zhedongzheng/tensorflow-nlp/blob/master/finch/java/MultiDialogInference/src/ModelInference.java)
-
-			```
-			└── MultiDialogInference
-				│
-				├── data
-				│   └── baseline_lstm_export/
-				│   └── char.txt
-				│   └── libtensorflow-1.14.0.jar
-				│   └── tensorflow_jni.dll
-				│
-				└── src              
-				    └── ModelInference.java
-			```
-
-		* If you don't know the input and output node names in Java, you can call:
-
-			```
-			!saved_model_cli show --dir ../model/xxx/1587959473/ --tag_set serve --signature_def serving_default
-			```
-
-			which will display the node names:
-
-			```
-			The given SavedModel SignatureDef contains the following input(s):
-			  inputs['history'] tensor_info:
-			      dtype: DT_INT32
-			      shape: (-1, -1, -1)
-			      name: history:0
-			  inputs['query'] tensor_info:
-			      dtype: DT_INT32
-			      shape: (-1, -1)
-			      name: query:0
-			The given SavedModel SignatureDef contains the following output(s):
-			  outputs['output'] tensor_info:
-			      dtype: DT_INT32
-			      shape: (-1, -1)
-			      name: Decoder/decoder/transpose_1:0
-			Method name is: tensorflow/serving/predict
-			```
