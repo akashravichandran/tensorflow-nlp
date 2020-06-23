@@ -867,7 +867,7 @@
 				where the target text highly overlaps with the source text
 				```
 
-	* This problem can also be formulated as a two-stage problem
+	* Despite End-to-End, this problem can also be formulated as a two-stage problem
 
 		* Stage 1. Detecting the (missing or referred) keywords from the context (a sequence tagging task)
 
@@ -881,7 +881,7 @@
 
 		* I have conducted an [experiment](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese_tagging/main/tagging_only_pos.ipynb) on the stage 1 (sequence tagging), and the result is:
 
-			Recall: 79.6% &nbsp; Precision: 78.7% for retrieving the keywords
+			Recall: 79.6% &nbsp; Precision: 78.7% &nbsp; for retrieving the keywords
 
 	* Python Inference（基于 Python 的推理）
 
