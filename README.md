@@ -928,7 +928,7 @@
 
 		* Stage 2. Adding the keywords to the query and reorder them
 			
-			which is a language modelling task with sequential complexity ``O(N)```
+			which is a language modelling task with sequential complexity ```O(N)```
 
 		* For example, for a given query: "买不起" and the context: "成都房价是多少 不买就后悔了成都房价还有上涨空间"
 
