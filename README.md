@@ -869,11 +869,11 @@
 
 	* This problem can also be formulated as a two-stage problem
 
-		* Stage 1. Detecting the missing (or referred) words from the history dialogue (a sequence tagging task)
+		* Stage 1. Detecting the (missing or referred) keywords from the history dialogue (a sequence tagging task)
 
-		* Stage 2. Adding the detected words to the query and reorder them (a language modelling task)
+		* Stage 2. Adding the keywords to the query and reorder them (a language modelling task)
 
-		* For example, for a given query: 买不起 and history: 成都房价是多少 不买就后悔了成都房价还有上涨空间
+		* For example, for a given query: "买不起" and history: "成都房价是多少 不买就后悔了成都房价还有上涨空间"
 
 			* first retrieve the keyword "成都房" from the history
 
@@ -881,7 +881,7 @@
 
 		* I have conducted an [experiment](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese_tagging/main/tagging_only_pos.ipynb) on the stage 1 (sequence tagging), and the result is:
 
-			Recall: 79.6% &nbsp; Precision: 78.7%
+			Recall: 79.6% &nbsp; Precision: 78.7% for retrieving the keywords
 
 	* Python Inference（基于 Python 的推理）
 
