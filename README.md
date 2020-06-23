@@ -869,13 +869,13 @@
 
 	* This problem can also be formulated as a two-stage problem
 
-		* Stage 1. Detecting the (missing or referred) keywords from the history dialogue (a sequence tagging task)
+		* Stage 1. Detecting the (missing or referred) keywords from the context (a sequence tagging task)
 
 		* Stage 2. Adding the keywords to the query and reorder them (a language modelling task)
 
-		* For example, for a given query: "买不起" and history: "成都房价是多少 不买就后悔了成都房价还有上涨空间"
+		* For example, for a given query: "买不起" and the context: "成都房价是多少 不买就后悔了成都房价还有上涨空间"
 
-			* first retrieve the keyword "成都房" from the history
+			* first retrieve the keyword "成都房" from the context
 
 			* then adding the keyword "成都房" to the query "买不起" which becomes "买不起成都房"
 
