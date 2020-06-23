@@ -855,9 +855,9 @@
 
 				-> Exact Match: 59.2%, &nbsp; BLEU-1: 93.2, &nbsp; BLEU-2: 87.7, &nbsp; BELU-4: 77.2
 
-			* [\<Notebook> GRU Pointer Net + Multi-Attention](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/pointer_gru_train_clr_multi_attn.ipynb)
+			* [\<Notebook> GRU Pointer Net + Multi-Attention](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese/main/pointer_gru_train_clr_multi_attn_.ipynb)
 
-				-> Exact Match: 59.0%, &nbsp; BLEU-1: 94.3, &nbsp; BLEU-2: 88.5, &nbsp; BELU-4: 77.6
+				-> Exact Match: 60.2%, &nbsp; BLEU-1: 94.2, &nbsp; BLEU-2: 88.7, &nbsp; BELU-4: 78.3
 
 				This result (only RNN, without BERT) is comparable to [the result here](https://github.com/liu-nlper/dialogue-utterance-rewriter) with BERT
 
