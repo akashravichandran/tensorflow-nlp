@@ -922,9 +922,13 @@
 
 	* Despite End-to-End, this problem can also be formulated as a two-stage problem
 
-		* Stage 1. Detecting the (missing or referred) keywords from the context (a sequence tagging task)
+		* Stage 1. Detecting the (missing or referred) keywords from the context
+		
+			which is a sequence tagging task with sequential complexity ```O(1)```
 
-		* Stage 2. Adding the keywords to the query and reorder them (a language modelling task)
+		* Stage 2. Adding the keywords to the query and reorder them
+			
+			which is a language modelling task with sequential complexity ``O(N)```
 
 		* For example, for a given query: "买不起" and the context: "成都房价是多少 不买就后悔了成都房价还有上涨空间"
 
