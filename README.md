@@ -871,7 +871,7 @@
 
 		* Stage 1. Detecting the missing (or referred) words from the history dialogue (a sequence tagging task)
 
-		* Stage 2. Adding the detected words to the query and reorder them (a sequence generation task)
+		* Stage 2. Adding the detected words to the query and reorder them (a language modelling task)
 
 		* I have conducted an [experiment](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese_tagging/main/tagging_only_pos.ipynb) on the stage 1, and the result is:
 
