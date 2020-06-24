@@ -920,22 +920,24 @@
 						└── ModelInference.java
 				```
 
-	* Despite End-to-End, this problem can also be formulated as a two-stage problem
+	* Despite End-to-End, this problem can also be decomposed into two stages
 
 		* Stage 1. Detecting the (missing or referred) keywords from the context
 		
 			which is a sequence tagging task with sequential complexity ```O(1)```
 
-		* Stage 2. Adding the keywords to the query and recombine them based on fluency
+		* Stage 2. Recombine the keywords with the query based on language fluency
 			
 			which is a sequence generation task with sequential complexity ```O(N)```
 
-		* For example, for a given query: "买不起" and the context: "成都房价是多少 不买就后悔了成都房价还有上涨空间"
+			```
+			For example, for a given query: "买不起" and the context: "成都房价是多少 不买就后悔了成都房价还有上涨空间"
 
-			* first retrieve the keyword "成都房" from the context (dialog history)
+			First retrieve the keyword "成都房" from the context (dialog history)
 
-			* then recombine the keyword "成都房" with the query "买不起" which becomes "买不起成都房"
-
+			Then recombine the keyword "成都房" with the query "买不起" which becomes "买不起成都房"
+			```
+		
 		* I have conducted an [experiment](https://nbviewer.jupyter.org/github/zhedongzheng/tensorflow-nlp/blob/master/finch/tensorflow1/multi_turn_rewrite/chinese_tagging/main/tagging_only_pos.ipynb) on the stage 1 (sequence tagging), and the result is:
 
 			Recall: 79.6% &nbsp; Precision: 78.7% &nbsp; for retrieving the keywords
